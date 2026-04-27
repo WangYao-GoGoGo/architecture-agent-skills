@@ -39,6 +39,7 @@ knowledge/
   api/                  Contracts, versioning, idempotency, pagination, errors
   frameworks/           Framework boundaries, ORM, migrations, frontend frameworks
   operations/           Linux, shell, process, filesystem, configuration
+  methodologies/        Named learning systems and source-oriented maps
 
 templates/              Reusable templates for new skills and reports
 docs/                   Project vision, contribution workflow, design guide

@@ -29,9 +29,12 @@ knowledge/
   api/               API contracts and compatibility
   frameworks/        Framework, ORM, migration, frontend framework knowledge
   operations/        Linux, shell, process, filesystem, config, deploy
+  methodologies/     Named learning systems and source-oriented maps
 ```
 
 Use subfolders when a category is expected to grow beyond a few cards or needs technology-specific cards. Keep one-file cards when the topic is stable and small.
+
+Architecture knowledge intentionally uses subfolders because the concerns differ: application-internal organization, distributed deployment shape, integration and consistency patterns, and decision governance should not be mixed in one flat list.
 
 ## Skill Structure
 

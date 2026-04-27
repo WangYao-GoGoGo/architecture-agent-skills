@@ -105,6 +105,7 @@ Use `knowledge/` as the shared concept library behind skills:
 - `knowledge/database/`: relational, non-relational, cache, search, and vector concepts.
 - `knowledge/frameworks/`: framework, ORM, migration, and generated-client concepts.
 - `knowledge/operations/`: Linux, shell, process, filesystem, and configuration concerns.
+- `knowledge/methodologies/`: named learning systems, curricula, and source-oriented maps.
 
 For alignment rules, see `docs/knowledge-skill-map.md`.
 

@@ -5,9 +5,9 @@ Architecture cards describe larger structural styles, integration patterns, dist
 ## Structure
 
 - `application-styles/`: in-process application structure such as layered, clean, hexagonal, MVC, and modular monolith.
-- `distributed-systems/`: service-level styles such as monolith, SOA, microservices, and serverless.
-- `integration-patterns/`: event-driven architecture, CQRS, event sourcing, saga, outbox, API gateway, and BFF.
-- `decision-governance/`: ADRs, fitness functions, and architecture evolution practices.
+- `distributed-systems/`: service styles, deployment styles, and distributed concerns such as boundaries, failure, and observability.
+- `integration-patterns/`: messaging/events, consistency patterns, read/write models, and client-facing edge patterns.
+- `decision-governance/`: ADRs, RFCs, fitness functions, review checklists, technical radar, and architecture principles.
 
 ## Rule
 

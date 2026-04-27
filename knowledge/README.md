@@ -16,6 +16,7 @@ Knowledge cards are reusable architecture concepts that skills can reference wit
 - `api/`: API contract, compatibility, pagination, idempotency, and error contract knowledge.
 - `frameworks/`: framework and ORM boundary knowledge.
 - `operations/`: Linux, shell, process, filesystem, configuration, and deployment-facing architecture concerns.
+- `methodologies/`: named architecture learning systems and source-oriented maps.
 
 ## Rule
 

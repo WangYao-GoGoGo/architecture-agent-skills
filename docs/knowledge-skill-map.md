@@ -64,3 +64,7 @@ Examples:
 ## Rule For New Skills
 
 Every non-trivial skill should include a short `Knowledge To Use` section listing relevant knowledge cards. This keeps each `SKILL.md` concise while making deeper context discoverable.
+
+## Methodology Notes
+
+Named learning systems such as Suntone architecture, Java architecture curricula, or GoF reading paths belong under `knowledge/methodologies/`. Reusable concepts from those systems should still be linked to their canonical cards in `principles/`, `patterns/`, `architecture/`, `languages/`, or `frameworks/`.
