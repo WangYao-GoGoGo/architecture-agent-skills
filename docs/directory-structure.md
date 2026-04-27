@@ -68,3 +68,38 @@ Choose the narrowest useful home:
 6. Core
 
 If a concept is reusable across several skills, put it in `knowledge/`. If it tells the agent what to do step by step, put it in `skills/`.
+
+## Example Structure
+
+Each major example in `examples/` follows this structure:
+
+```text
+examples/<language>/<example-name>/
+  README.md
+  before/          Original source code before refactoring
+  after/           Refactored source code after refactoring
+  reports/         Architecture, behavior, and debug reports
+    refactoring-plan.md
+    behavior-preservation-report.md
+    architecture-quality-review.md
+    debug-report.md
+    design-notes.md
+  tests/           Executable validation tests or sample data
+  commands.md      How to run, test, and validate the example
+```
+
+- `before/` contains the original code.
+- `after/` contains the refactored code.
+- `reports/` contains architecture, behavior, and debug reports.
+- `tests/` contains optional executable validation.
+- `commands.md` explains how to run or validate the example.
+
+### Validation Levels for Examples
+
+| Label | Meaning |
+|---|---|
+| `Validated` | Tests have been run and passed |
+| `Not validated` | No tests have been run |
+| `Requires runtime environment` | Needs specific runtime to execute |
+| `Requires database` | Needs a database connection |
+| `Requires external API` | Needs an external service |

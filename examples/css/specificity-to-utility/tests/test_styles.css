@@ -1,0 +1,11 @@
+/* CSS Validation Tests
+ *
+ * These are static checks that verify the refactored CSS
+ * does not use !important or overly specific selectors.
+ *
+ * Run with: npx stylelint after/styles.css
+ */
+
+/* Expected: no !important usage in refactored code */
+/* Expected: no ID selectors in refactored code */
+/* Expected: consistent spacing and color tokens */

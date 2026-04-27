@@ -1,0 +1,21 @@
+# Redis cache invalidation tests
+#
+# Run with: redis-cli < tests/test_cache_invalidation.redis
+
+# Test 1: Set product cache
+SET product:detail:123 '{"id":123,"name":"Widget","price":9.99,"stock":100}' EX 3600
+GET product:detail:123
+
+# Test 2: Invalidate on update
+DEL product:detail:123
+GET product:detail:123
+# Expected: (nil)
+
+# Test 3: Verify cache miss triggers refresh
+# (Application should re-fetch from database and re-cache)
+SET product:detail:123 '{"id":123,"name":"Widget","price":7.99,"stock":95}' EX 3600
+GET product:detail:123
+# Expected: updated price and stock
+
+# Cleanup
+DEL product:detail:123

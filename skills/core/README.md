@@ -14,6 +14,10 @@ Core skills are the fundamental architecture skills that apply across all langua
 | [`anti-overengineering-review`](anti-overengineering-review/README.md) | Check whether a proposed architecture or abstraction is larger than the current problem needs. |
 | [`new-project-scaffolding`](new-project-scaffolding/README.md) | Generate a complete project structure with clear boundaries, dependency direction, and testability from the start. |
 | [`architecture-quality-review`](architecture-quality-review/README.md) | Evaluate whether generated or existing code meets architecture quality standards. |
+| [`runtime-error-diagnosis`](runtime-error-diagnosis/README.md) | Diagnose code that fails at runtime — identify root cause and suggest the smallest safe fix. |
+| [`test-generation-planner`](test-generation-planner/README.md) | Plan minimal tests for generated, modified, or refactored code. |
+| [`behavior-preservation-validator`](behavior-preservation-validator/README.md) | Check whether refactored code preserves the original behavior. |
+| [`debug-report-generator`](debug-report-generator/README.md) | Generate a human-readable debugging report after a bug fix or validation task. |
 
 ## Workflow Integration
 
@@ -26,6 +30,58 @@ The core skills work together in a natural workflow:
 5. **Reviewing?** → [`dependency-boundary-review`](dependency-boundary-review/README.md) or [`architecture-decision-review`](architecture-decision-review/README.md) for targeted reviews.
 6. **Too complex?** → [`anti-overengineering-review`](anti-overengineering-review/README.md) to simplify.
 7. **Done?** → [`architecture-quality-review`](architecture-quality-review/README.md) to verify quality.
+
+### Debugging and Validation Workflows
+
+For runtime errors:
+
+```text
+User provides code or error log
+        ↓
+runtime-error-diagnosis
+        ↓
+minimal code fix
+        ↓
+test-generation-planner
+        ↓
+run or describe validation checks
+        ↓
+debug-report-generator
+```
+
+For refactoring:
+
+```text
+code-smell-detector
+        ↓
+refactoring-planner
+        ↓
+code modification
+        ↓
+behavior-preservation-validator
+        ↓
+architecture-quality-review
+        ↓
+anti-overengineering-review
+        ↓
+debug-report-generator
+```
+
+For new code generation:
+
+```text
+architecture-before-coding
+        ↓
+new-project-scaffolding
+        ↓
+code generation
+        ↓
+test-generation-planner
+        ↓
+architecture-quality-review
+        ↓
+debug-report-generator
+```
 
 ## Knowledge Packs
 

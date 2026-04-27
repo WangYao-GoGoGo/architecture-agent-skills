@@ -73,6 +73,10 @@ tests/                  Human-readable evaluation checklists
 | [`anti-overengineering-review`](skills/core/anti-overengineering-review/README.md) | To check whether a proposed abstraction is larger than the current problem needs. |
 | [`new-project-scaffolding`](skills/core/new-project-scaffolding/README.md) | When creating a new project from scratch — generate architecture-correct structure from day one. |
 | [`architecture-quality-review`](skills/core/architecture-quality-review/README.md) | After generating or refactoring code — verify it meets architecture quality standards. |
+| [`runtime-error-diagnosis`](skills/core/runtime-error-diagnosis/README.md) | When code fails to run, throws an exception, or produces an error log — diagnose root cause and suggest the smallest safe fix. |
+| [`test-generation-planner`](skills/core/test-generation-planner/README.md) | Before or after code changes — identify minimal tests needed to validate behavior. |
+| [`behavior-preservation-validator`](skills/core/behavior-preservation-validator/README.md) | After refactoring — check whether original behavior is preserved. |
+| [`debug-report-generator`](skills/core/debug-report-generator/README.md) | After debugging — summarize root cause, fix, validation steps, and remaining risks. |
 
 ## Frameworks vs Platform Ecosystems
 
@@ -89,6 +93,46 @@ Put external ecosystem constraints in `knowledge/platform/`: WeChat, Pepper/NAOq
 5. Prefer behavior-preserving refactors with tests or executable checks.
 6. Avoid pattern shopping. A pattern is useful only when it reduces real change cost.
 7. Treat data architecture, caching, APIs, and frontend state as first-class architecture concerns.
+
+## Debugging and Validation
+
+Architecture improvement is not complete unless behavior is checked.
+
+This project includes debugging and validation skills that help AI coding agents diagnose runtime errors, plan tests, verify behavior preservation, and generate human-readable debug reports.
+
+Key validation skills include:
+
+- [`runtime-error-diagnosis`](skills/core/runtime-error-diagnosis/README.md) — diagnose code that fails at runtime, identify root cause, and suggest the smallest safe fix.
+- [`test-generation-planner`](skills/core/test-generation-planner/README.md) — plan minimal tests for generated, modified, or refactored code.
+- [`behavior-preservation-validator`](skills/core/behavior-preservation-validator/README.md) — check whether refactored code preserves the original behavior.
+- [`debug-report-generator`](skills/core/debug-report-generator/README.md) — generate a human-readable debugging report after a bug fix or validation task.
+
+These skills help agents avoid silent behavior changes during refactoring and ensure that generated or modified code actually works.
+
+### Validation Levels
+
+| Level | Description | When To Use |
+|---|---|---|
+| **Static reasoning** | Compare interfaces, inputs, outputs, and side effects by reasoning alone | When code cannot be executed |
+| **Test-based** | Write and run unit tests or regression tests | When tests can be written or run |
+| **Golden master** | Run original code on representative inputs, save outputs, compare with refactored code | For behavior-preserving refactors |
+
+### Example Structure
+
+Each major example in `examples/` follows this structure:
+
+```text
+examples/<language>/<example-name>/
+  README.md
+  before/          Original source code
+  after/           Refactored source code
+  reports/         Architecture, behavior, and debug reports
+    refactoring-plan.md
+    behavior-preservation-report.md
+    debug-report.md
+  tests/           Executable validation tests
+  commands.md      How to run, test, and validate
+```
 
 ## Contributing
 

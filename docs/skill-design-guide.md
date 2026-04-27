@@ -83,6 +83,19 @@ Skills should standardize output when possible. Suggested sections:
 
 Any important skill should eventually have at least one example:
 
-- `examples/<language>/before/...`
-- `examples/<language>/after/...`
-- notes explaining why the design improved
+- `examples/<language>/before/...` — original source code
+- `examples/<language>/after/...` — refactored source code
+- `examples/<language>/reports/` — architecture, behavior, and debug reports
+- `examples/<language>/tests/` — optional executable validation tests
+- `examples/<language>/commands.md` — how to run, test, and validate
+
+## Debugging and Validation Skills
+
+The project also includes debugging and validation skills that complement the architecture skills:
+
+- [`runtime-error-diagnosis`](../skills/core/runtime-error-diagnosis/README.md) — diagnose runtime errors
+- [`test-generation-planner`](../skills/core/test-generation-planner/README.md) — plan minimal tests
+- [`behavior-preservation-validator`](../skills/core/behavior-preservation-validator/README.md) — verify behavior preservation
+- [`debug-report-generator`](../skills/core/debug-report-generator/README.md) — generate debug reports
+
+These skills follow the same structure as architecture skills but focus on runtime validation rather than design analysis.
