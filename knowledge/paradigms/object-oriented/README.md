@@ -44,3 +44,14 @@ Object-oriented design organizes behavior around objects that own state, rules, 
 - Can you add a new variant without modifying existing code (Open/Closed)?
 - Are there any circular dependencies between packages or modules?
 - Do method signatures reveal internal state or implementation details?
+
+## Design Patterns Reference
+
+All 35 OO design patterns are documented under [`patterns/`](patterns/):
+
+- **Creational** (7): [`Singleton`](patterns/creational/singleton.md), [`Factory Method`](patterns/creational/factory-method.md), [`Abstract Factory`](patterns/creational/abstract-factory.md), [`Builder`](patterns/creational/builder.md), [`Prototype`](patterns/creational/prototype.md), [`Object Pool`](patterns/creational/object-pool.md), [`Dependency Injection`](patterns/creational/dependency-injection.md)
+- **Structural** (7): [`Adapter`](patterns/structural/adapter.md), [`Bridge`](patterns/structural/bridge.md), [`Composite`](patterns/structural/composite.md), [`Decorator`](patterns/structural/decorator.md), [`Facade`](patterns/structural/facade.md), [`Flyweight`](patterns/structural/flyweight.md), [`Proxy`](patterns/structural/proxy.md)
+- **Behavioral** (11): [`Chain of Responsibility`](patterns/behavioral/chain-of-responsibility.md), [`Command`](patterns/behavioral/command.md), [`Interpreter`](patterns/behavioral/interpreter.md), [`Iterator`](patterns/behavioral/iterator.md), [`Mediator`](patterns/behavioral/mediator.md), [`Memento`](patterns/behavioral/memento.md), [`Observer`](patterns/behavioral/observer.md), [`State`](patterns/behavioral/state.md), [`Strategy`](patterns/behavioral/strategy.md), [`Template Method`](patterns/behavioral/template-method.md), [`Visitor`](patterns/behavioral/visitor.md)
+- **Extended** (12): [`Null Object`](patterns/extended/null-object.md), [`MVC`](patterns/extended/mvc.md), [`Repository`](patterns/extended/repository.md), [`Unit of Work`](patterns/extended/unit-of-work.md), [`Specification`](patterns/extended/specification.md), [`Service Locator`](patterns/extended/service-locator.md), [`Lazy Initialization`](patterns/extended/lazy-initialization.md), [`Double-Checked Locking`](patterns/extended/double-checked-locking.md), [`Thread Pool`](patterns/extended/thread-pool.md), [`Balking`](patterns/extended/balking.md), [`Scheduler`](patterns/extended/scheduler.md), [`Pipeline`](patterns/extended/pipeline.md)
+
+Use the [`skills/paradigms/object-oriented/design-pattern-selector/SKILL.md`](../../../skills/paradigms/object-oriented/design-pattern-selector/SKILL.md) skill to select the right pattern for a given design pressure.
