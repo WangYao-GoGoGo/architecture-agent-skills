@@ -4,13 +4,14 @@ This map keeps `knowledge/` and `skills/` aligned.
 
 ## Core Skills
 
-Core skills should load only the knowledge needed for the task:
+Core skills pair with `knowledge/core/` for architecture-level heuristics:
 
-- `architecture-before-coding`: `principles/`, `architecture/application-styles/`, `architecture/integration-patterns/`, `patterns/`, `smells/`
-- `refactoring-planner`: `refactoring/`, `smells/`, `principles/`
-- `dependency-boundary-review`: `principles/dependency-inversion.md`, `principles/separation-of-concerns.md`, `frameworks/core/framework-boundaries.md`
-- `anti-overengineering-review`: `principles/`, `smells/`, `patterns/`
-- `architecture-decision-review`: `architecture/`, especially `architecture/decision-governance/`, plus `data-systems/`, `api/`, `frameworks/`, `platform-ecosystems/` as needed
+- `architecture-before-coding`: `knowledge/core/architecture-before-coding/`, `knowledge/principles/`, `knowledge/architecture/application-styles/`, `knowledge/architecture/integration-patterns/`, `knowledge/patterns/`, `knowledge/smells/`
+- `refactoring-planner`: `knowledge/core/refactoring-planner/`, `knowledge/refactoring/`, `knowledge/smells/`, `knowledge/principles/`
+- `dependency-boundary-review`: `knowledge/core/dependency-boundary-review/`, `knowledge/principles/dependency-inversion.md`, `knowledge/principles/separation-of-concerns.md`, `knowledge/frameworks/core/framework-boundaries.md`
+- `anti-overengineering-review`: `knowledge/core/anti-overengineering-review/`, `knowledge/principles/`, `knowledge/smells/`, `knowledge/patterns/`
+- `architecture-decision-review`: `knowledge/core/architecture-decision-review/`, `knowledge/architecture/`, especially `knowledge/architecture/decision-governance/`, plus `knowledge/data-systems/`, `knowledge/api/`, `knowledge/frameworks/`, `knowledge/platform-ecosystems/` as needed
+- `design-pattern-selector`: `knowledge/core/design-pattern-selector/`, `knowledge/patterns/`, `knowledge/principles/`
 
 ## Paradigm Skills
 
@@ -107,7 +108,7 @@ Each language skill pairs with its corresponding knowledge card:
 - **Data frameworks**: `knowledge/frameworks/data/` (Spark, Flink, Airflow, Kafka, dbt, Prefect, Dagster, Beam, Kubeflow)
 - **AI Agent frameworks**: `knowledge/frameworks/ai-agent/` (LangChain, LlamaIndex, Semantic Kernel, CrewAI, AutoGen, Haystack, Dify, Rasa, DSPy)
 - **Database tools**: `knowledge/frameworks/database/` (Flyway, Liquibase, Atlas, Bytebase)
-- **Java ecosystem**: `knowledge/frameworks/java/` (Hibernate, MyBatis, Spring Data JPA, Spring MVC, Struts, jOOQ, Reactor)
+- **Java ecosystem**: `knowledge/frameworks/java/` (Hibernate, MyBatis, Spring Data JPA, Spring Boot, Spring MVC, Struts, jOOQ, Reactor)
 - **Python ORM**: `knowledge/frameworks/python/` (SQLAlchemy, Alembic, Django ORM, Peewee, SQLModel)
 - **TypeScript data**: `knowledge/frameworks/typescript/` (Prisma, TypeORM, Sequelize, Mongoose, Drizzle ORM, Knex.js, MikroORM)
 - **Robotics frameworks**: `knowledge/frameworks/robotics/` (ROS 2, MoveIt, Gazebo, Webots, Isaac Sim), plus `knowledge/platform-ecosystems/robotics/` when hardware or vendor runtime constraints matter.
