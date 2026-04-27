@@ -15,10 +15,17 @@ Core skills pair with `knowledge/core/` for architecture-level heuristics:
 
 ## Paradigm Skills
 
-- `skills/paradigms/object-oriented/`: `knowledge/paradigms/object-oriented/`, `principles/solid.md`, `principles/grasp.md`, `patterns/`
-- `skills/paradigms/procedural/`: `knowledge/paradigms/procedural/`, `knowledge/languages/c/`, `refactoring/`
+- `skills/paradigms/object-oriented/`: `knowledge/paradigms/object-oriented/`
+  - `oo-design-review`: OO responsibility, encapsulation, SOLID, GRASP review
+  - `design-pattern-selector`: OO pattern selection (Strategy, Factory, etc.)
+- `skills/paradigms/procedural/`: `knowledge/paradigms/procedural/`, `knowledge/languages/c/`, `knowledge/languages/go/`
+  - `modular-procedural-refactor`: refactor procedural code into clearer modules
+  - `procedural-architecture-review`: review procedural module boundaries, data flow, side effects
 - `skills/paradigms/functional/`: `knowledge/paradigms/functional/`
+  - `functional-composition-review`: functional composition and purity review
 - `skills/paradigms/systems/`: `knowledge/paradigms/systems-oriented/`, `knowledge/platform/`
+  - `systems-boundary-review`: systems boundary and resource ownership review
+- Cross-paradigm: `knowledge/paradigms/cross-paradigm/` — paradigm comparison and decision guide
 
 ## Language Skills
 
