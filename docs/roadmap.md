@@ -23,6 +23,8 @@
 - C: modular architecture, header/interface boundaries.
 - SQL: schema refactor and query structure.
 - TypeScript: frontend state boundaries, backend API shape, type-driven module design.
+- JavaScript: module boundaries, async workflows, runtime contracts, and side-effect management.
+- Shell: Linux automation, CI scripts, deployment scripts, idempotency, and failure recovery.
 
 ## Phase 4: Domain Packs
 
@@ -31,9 +33,20 @@
 - Database modeling, indexing, migrations, transactions, and query architecture.
 - Cache strategy, invalidation, Redis data structures, and consistency tradeoffs.
 - Search architecture and indexing strategy.
+- Vector search, embeddings, chunking, metadata filters, and retrieval quality.
 - Data pipeline architecture and processing boundaries.
+- Operations architecture for scripts, configuration, deployment, rollback, and filesystem/process boundaries.
 
-## Phase 5: Evaluation
+## Phase 5: Framework Packs
+
+- Generic framework boundary review.
+- Generic ORM boundary review.
+- Java: Hibernate, Spring Data JPA, MyBatis.
+- Python: SQLAlchemy, Alembic, Django ORM.
+- TypeScript: Prisma, TypeORM, Sequelize, Mongoose.
+- Database migration tools: Flyway and Liquibase.
+
+## Phase 6: Evaluation
 
 - Add prompt-based evaluation cases.
 - Add human review checklists.

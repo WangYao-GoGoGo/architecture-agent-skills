@@ -21,9 +21,10 @@ The project scope is broad software architecture for agent-assisted coding:
 
 - Core workflows: architecture before coding, refactoring planning, dependency boundary review, architecture decision review.
 - Paradigms: object-oriented, procedural, functional, and systems-oriented design.
-- Languages: Java, Python, C, SQL, TypeScript, and future language packs.
-- Domains: backend services, frontend component architecture, databases, caches, search systems, data pipelines, APIs, and integrations.
-- Knowledge: principles, design patterns, architecture patterns, code smells, data modeling smells, and refactoring moves.
+- Languages: Java, Python, C, SQL, TypeScript, JavaScript, Shell, and future language packs.
+- Domains: backend services, frontend component architecture, databases, caches, search systems, vector search, data pipelines, APIs, operations, and integrations.
+- Frameworks: ORMs, migration tools, frontend frameworks, backend frameworks, generated clients, and framework lifecycle boundaries.
+- Knowledge: principles, design patterns, architecture patterns, language idioms, framework boundaries, code smells, data modeling smells, operational risks, and refactoring moves.
 
 Object-oriented architecture is an early content focus because it has a mature vocabulary around responsibilities, patterns, and refactoring. It should be treated as one strong pillar, not the outer wall of the project.
 
@@ -50,6 +51,7 @@ A good skill should make an agent produce:
 
 1. Make the core skills usable: architecture before coding, pattern selection, refactoring planning, dependency boundary review.
 2. Build the first paradigm packs: object-oriented, procedural modular design, functional composition, and systems boundary review.
-3. Add Java, Python, C, SQL, and TypeScript language packs with concrete before/after examples.
-4. Add database, cache, backend, frontend, and data pipeline domain packs.
-5. Add evaluation checklists so contributors can judge whether a skill improves agent behavior.
+3. Add Java, Python, C, SQL, TypeScript, JavaScript, and Shell language packs with concrete before/after examples.
+4. Add database, cache, backend, frontend, data pipeline, operations, and vector search domain packs.
+5. Add framework packs for ORMs, migration tools, and frontend/backend frameworks.
+6. Add evaluation checklists so contributors can judge whether a skill improves agent behavior.

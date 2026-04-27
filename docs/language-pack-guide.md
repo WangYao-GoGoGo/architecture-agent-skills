@@ -27,3 +27,6 @@ Examples:
 - Java may use packages, constructor injection, and explicit interfaces where substitution matters.
 - C may use headers, opaque structs, and explicit ownership contracts.
 - SQL may use constraints, indexes, migrations, and query plans as architecture tools.
+- TypeScript may use discriminated unions and generated type boundaries as architecture tools.
+- JavaScript may need runtime validation, JSDoc, and explicit async error boundaries.
+- Shell may need idempotency, quoting, cleanup traps, and Linux process/filesystem awareness.

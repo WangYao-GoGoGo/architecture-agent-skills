@@ -40,6 +40,8 @@ Examples:
 - C header/interface design
 - SQL query and schema structure
 - TypeScript type-driven module design
+- JavaScript module and async workflow design
+- Shell script architecture and Linux automation
 
 Use `skills/languages/` when the answer depends on language-specific mechanics or idioms.
 
@@ -55,6 +57,7 @@ Examples:
 - cache strategy and invalidation
 - search indexing
 - data pipeline architecture
+- operations and shell automation
 
 Use `skills/domains/` when the decision is about the architecture of a technical area rather than a language.
 
@@ -68,6 +71,8 @@ Examples:
 - Django app structure
 - React state and component patterns
 - Redis data structure usage
+- ORM entity/session/repository boundaries
+- migration tool rollout behavior
 
 Use `skills/frameworks/` when the guidance depends on framework behavior, lifecycle, conventions, or APIs.
 
@@ -83,8 +88,25 @@ Examples:
 - code smells
 - schema smells
 - refactoring moves
+- language idioms
+- framework boundaries
+- Linux and operational architecture
 
 Use `knowledge/` for durable concepts. Use `skills/` for executable agent workflows.
+
+## Knowledge Layers
+
+Use `knowledge/` as the shared concept library behind skills:
+
+- `knowledge/principles/`: reusable design principles.
+- `knowledge/paradigms/`: programming model concepts.
+- `knowledge/languages/`: language-specific architecture idioms.
+- `knowledge/domains/`: backend, frontend, pipeline, and operations concepts.
+- `knowledge/database/`: relational, non-relational, cache, search, and vector concepts.
+- `knowledge/frameworks/`: framework, ORM, migration, and generated-client concepts.
+- `knowledge/operations/`: Linux, shell, process, filesystem, and configuration concerns.
+
+For alignment rules, see `docs/knowledge-skill-map.md`.
 
 ## Placement Rule
 

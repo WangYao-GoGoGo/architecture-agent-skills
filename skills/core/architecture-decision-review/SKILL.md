@@ -14,6 +14,14 @@ Use this skill when a decision has meaningful long-term consequences.
 - Changing a public API, schema, module boundary, or deployment shape.
 - Writing or reviewing an ADR.
 
+## Knowledge To Use
+
+- `knowledge/architecture/decision-governance/` for ADR and fitness-function guidance.
+- `knowledge/architecture/application-styles/` for in-process architecture choices.
+- `knowledge/architecture/distributed-systems/` for service/deployment choices.
+- `knowledge/architecture/integration-patterns/` for event, CQRS, saga, outbox, API gateway, and BFF choices.
+- `knowledge/database/`, `knowledge/api/`, or `knowledge/frameworks/` when the decision touches those areas.
+
 ## Workflow
 
 1. State the decision in one sentence.

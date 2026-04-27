@@ -26,6 +26,13 @@ Do not use this skill for tiny edits, simple bug fixes, formatting, or one-line 
 6. Propose the smallest implementation sequence that keeps behavior verifiable.
 7. Implement in small steps and verify with existing tests or focused checks.
 
+## Knowledge To Use
+
+- `knowledge/architecture/application-styles/` for in-process application structure.
+- `knowledge/architecture/integration-patterns/` when events, async workflows, gateways, or read/write model separation are involved.
+- `knowledge/architecture/distributed-systems/` when service boundaries or deployment units are involved.
+- `knowledge/principles/` and `knowledge/patterns/` for responsibility and pattern decisions.
+
 ## Design Checklist
 
 - What is the domain concept?

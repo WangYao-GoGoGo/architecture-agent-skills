@@ -27,6 +27,8 @@ description: Use when ...
 
 ## Inputs To Inspect
 
+## Knowledge To Use
+
 ## Workflow
 
 ## Decision Rules
@@ -40,6 +42,7 @@ description: Use when ...
 
 - Start with the trigger: when should the agent use this skill?
 - Give a workflow, not just concepts.
+- Add a short `Knowledge To Use` section for non-trivial skills so the agent can load deeper knowledge cards only when needed.
 - Prefer checklists and decision rules over long explanations.
 - Include negative guidance: when not to use the skill.
 - Keep detailed pattern catalogs in `knowledge/`, not inside every skill.

@@ -13,8 +13,8 @@ The goal is not to make agents use patterns everywhere. The goal is to help agen
 - Select design patterns only when the problem actually fits.
 - Design new code around responsibilities, boundaries, and extension points.
 - Provide paradigm-specific guidance for object-oriented, procedural, functional, and systems-oriented code.
-- Provide language-specific guidance for Java, Python, C, SQL, TypeScript, and future language packs.
-- Provide domain-specific guidance for backend, frontend, database, cache, search, and data pipeline architecture.
+- Provide language-specific guidance for Java, Python, C, SQL, TypeScript, JavaScript, Shell, and future language packs.
+- Provide domain-specific guidance for backend, frontend, database, cache, search, data pipeline, and operations architecture.
 - Build a shared knowledge base that contributors can improve over time.
 
 ## Repository Layout
@@ -23,14 +23,22 @@ The goal is not to make agents use patterns everywhere. The goal is to help agen
 skills/
   core/                 Cross-language architecture workflows
   paradigms/            Object-oriented, functional, procedural, systems thinking
-  languages/            Java, Python, C, SQL language-specific guidance
-  domains/              Backend, frontend, database, data pipeline guidance
+  languages/            Java, Python, C, SQL, TypeScript, JavaScript, Shell guidance
+  domains/              Backend, frontend, database, data pipeline, operations guidance
+  frameworks/           Framework, ORM, migration-tool, generated-client guidance
 
 knowledge/
   principles/           SOLID, GRASP, coupling/cohesion, boundaries
   patterns/             Design pattern and architecture pattern cards
   smells/               Code, schema, boundary, and architecture smell cards
-  architecture/         Layered, clean, hexagonal, event-driven architecture
+  architecture/         Application styles, distributed systems, integration patterns, governance
+  paradigms/            OO, procedural, functional, systems-oriented concepts
+  languages/            Java, Python, C, SQL, TypeScript, JavaScript, Shell idioms
+  domains/              Backend, frontend, data pipeline, operations
+  database/             Relational, document, key-value, graph, search, vector, cache
+  api/                  Contracts, versioning, idempotency, pagination, errors
+  frameworks/           Framework boundaries, ORM, migrations, frontend frameworks
+  operations/           Linux, shell, process, filesystem, configuration
 
 templates/              Reusable templates for new skills and reports
 docs/                   Project vision, contribution workflow, design guide
@@ -65,4 +73,4 @@ This repository is intentionally organized so contributors can add one small, hi
 
 Start with `docs/skill-design-guide.md` and use the templates in `templates/`.
 
-For placement rules, see `docs/taxonomy.md`.
+For placement rules, see `docs/taxonomy.md`. For the full directory model, see `docs/directory-structure.md`. For skill-to-knowledge alignment, see `docs/knowledge-skill-map.md`.

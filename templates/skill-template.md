@@ -24,6 +24,11 @@ Do not use this skill for <clear non-goal>.
 - Tests, examples, logs, or docs.
 - Relevant project conventions.
 
+## Knowledge To Use
+
+- `knowledge/...`
+- `knowledge/...`
+
 ## Workflow
 
 1. Inspect the current structure before proposing changes.
