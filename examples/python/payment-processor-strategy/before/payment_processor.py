@@ -1,3 +1,6 @@
+"""Before: Large conditional — payment methods handled by if-elif chain."""
+
+
 class PaymentProcessor:
     def pay(self, method, amount, user):
         if method == "credit_card":
