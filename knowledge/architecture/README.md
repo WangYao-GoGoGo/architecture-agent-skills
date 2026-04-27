@@ -8,6 +8,7 @@ Architecture cards describe larger structural styles, integration patterns, dist
 - `distributed-systems/`: service styles, deployment styles, and distributed concerns such as boundaries, failure, and observability.
 - `integration-patterns/`: messaging/events, consistency patterns, read/write models, and client-facing edge patterns.
 - `decision-governance/`: ADRs, RFCs, fitness functions, review checklists, technical radar, and architecture principles.
+- `migration-strategies/`: strategies for incrementally migrating existing code to a better architecture (strangler fig, branch by abstraction, parallel run, expand-contract, feature flags).
 
 ## Rule
 

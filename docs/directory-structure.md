@@ -21,7 +21,7 @@ knowledge/
   patterns/          Design patterns and architecture patterns
   smells/            Code, schema, boundary, and architecture smells
   refactoring/       Behavior-preserving refactoring moves
-  architecture/      Application styles, distributed systems, integration patterns, governance
+  architecture/      Application styles, distributed systems, integration patterns, governance, migration strategies
   paradigms/         OO, procedural, functional, systems-oriented concepts
   languages/         40+ languages across systems, scripting, web, scientific, functional, database, hardware, blockchain, legacy, and WASM
   application-areas/ Backend, frontend, data pipeline, operations

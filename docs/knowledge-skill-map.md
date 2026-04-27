@@ -7,11 +7,13 @@ This map keeps `knowledge/` and `skills/` aligned.
 Core skills pair with `knowledge/core/` for architecture-level heuristics:
 
 - `architecture-before-coding`: `knowledge/core/architecture-before-coding/`, `knowledge/principles/`, `knowledge/architecture/application-styles/`, `knowledge/architecture/integration-patterns/`, `knowledge/patterns/`, `knowledge/smells/`
-- `refactoring-planner`: `knowledge/core/refactoring-planner/`, `knowledge/refactoring/`, `knowledge/smells/`, `knowledge/principles/`
+- `refactoring-planner`: `knowledge/core/refactoring-planner/`, `knowledge/refactoring/`, `knowledge/smells/`, `knowledge/principles/`, `knowledge/architecture/migration-strategies/`
 - `dependency-boundary-review`: `knowledge/core/dependency-boundary-review/`, `knowledge/principles/dependency-inversion.md`, `knowledge/principles/separation-of-concerns.md`, `knowledge/frameworks/core/framework-boundaries.md`
 - `anti-overengineering-review`: `knowledge/core/anti-overengineering-review/`, `knowledge/principles/`, `knowledge/smells/`, `knowledge/patterns/`
 - `architecture-decision-review`: `knowledge/core/architecture-decision-review/`, `knowledge/architecture/`, especially `knowledge/architecture/decision-governance/`, plus `knowledge/data-systems/`, `knowledge/api/`, `knowledge/frameworks/`, `knowledge/platform/` as needed
 - `design-pattern-selector`: `knowledge/core/design-pattern-selector/`, `knowledge/patterns/`, `knowledge/principles/`
+- `new-project-scaffolding`: `knowledge/architecture/application-styles/`, `knowledge/architecture/distributed-systems/`, `knowledge/architecture/integration-patterns/`, `knowledge/principles/`, `knowledge/patterns/architecture/`, `skills/core/architecture-before-coding/`
+- `architecture-quality-review`: `knowledge/principles/`, `knowledge/smells/`, `knowledge/refactoring/`, `knowledge/architecture/application-styles/`, `skills/core/anti-overengineering-review/`
 
 ## Paradigm Skills
 

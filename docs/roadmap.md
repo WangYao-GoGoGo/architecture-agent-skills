@@ -6,6 +6,9 @@
 - Fill `design-pattern-selector`.
 - Fill `refactoring-planner`.
 - Fill `dependency-boundary-review`.
+- Fill `new-project-scaffolding` — generate architecture-correct project structure from scratch.
+- Fill `architecture-quality-review` — verify code against architecture quality standards.
+- Fill `knowledge/architecture/migration-strategies/` — strangler fig, branch by abstraction, parallel run, expand-contract, feature flags.
 - Add at least one application-code example and one data/domain architecture example.
 
 ## Phase 2: Paradigm Packs

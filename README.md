@@ -49,11 +49,18 @@ examples/               Before/after examples for evaluation and learning
 tests/                  Human-readable evaluation checklists
 ```
 
-## First Core Skills
+## Core Skills
 
-- `skills/core/architecture-before-coding`: use before implementing a feature, so the agent proposes responsibilities, boundaries, interfaces, and risks first.
-- `skills/core/design-pattern-selector`: use when code has conditionals, duplicated workflows, object creation complexity, event notification, adapters, or extension needs.
-- `skills/core/refactoring-planner`: use before changing existing code, especially when behavior must remain stable.
+| Skill | When To Use |
+|---|---|
+| [`architecture-before-coding`](skills/core/architecture-before-coding/README.md) | Before implementing a feature — design responsibilities, boundaries, patterns, and risks first. |
+| [`refactoring-planner`](skills/core/refactoring-planner/README.md) | Before changing existing code — plan behavior-preserving refactors. |
+| [`design-pattern-selector`](skills/core/design-pattern-selector/README.md) | When code has conditionals, duplication, or creation complexity — pick the smallest pattern that fits. |
+| [`dependency-boundary-review`](skills/core/dependency-boundary-review/README.md) | When dependencies between modules or services are tangled or point in the wrong direction. |
+| [`architecture-decision-review`](skills/core/architecture-decision-review/README.md) | To document or review architecture decisions, tradeoffs, and alternatives. |
+| [`anti-overengineering-review`](skills/core/anti-overengineering-review/README.md) | To check whether a proposed abstraction is larger than the current problem needs. |
+| [`new-project-scaffolding`](skills/core/new-project-scaffolding/README.md) | When creating a new project from scratch — generate architecture-correct structure from day one. |
+| [`architecture-quality-review`](skills/core/architecture-quality-review/README.md) | After generating or refactoring code — verify it meets architecture quality standards. |
 
 ## Frameworks vs Platform Ecosystems
 
