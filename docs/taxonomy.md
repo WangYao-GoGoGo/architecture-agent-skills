@@ -33,15 +33,20 @@ Use `skills/paradigms/` when the main question is how code should be structured 
 
 Guidance based on language idioms and constraints.
 
-Examples:
+Examples (40+ languages across categories):
 
-- Java package boundaries and dependency injection
-- Python protocols and module organization
-- C header/interface design
-- SQL query and schema structure
-- TypeScript type-driven module design
-- JavaScript module and async workflow design
-- Shell script architecture and Linux automation
+**Systems & Performance**: Go, Rust, C, C++, C#, Swift, Kotlin, Zig, Nim, Assembly, Ada
+**Scripting & Dynamic**: Ruby, PHP, JavaScript, TypeScript, Python, Shell, Lua, Perl
+**Web & Markup**: HTML, CSS
+**Scientific & Numerical**: R, Julia, MATLAB, Fortran
+**Functional & JVM**: Scala, Clojure, Haskell, OCaml/F#, Elixir, Erlang
+**Database & Query**: SQL, GraphQL
+**Hardware & Embedded**: VHDL/Verilog
+**Blockchain**: Solidity
+**Mainframe & Legacy**: COBOL
+**WebAssembly**: WASM
+**Java Ecosystem**: Java
+**Mobile & UI**: Dart, Groovy
 
 Use `skills/languages/` when the answer depends on language-specific mechanics or idioms.
 
@@ -65,16 +70,19 @@ Use `skills/domains/` when the decision is about the architecture of a technical
 
 Guidance based on a specific framework, library ecosystem, middleware, or runtime framework.
 
-Examples:
+Examples (80+ frameworks across 12 categories):
 
-- Spring transaction boundaries
-- Django app structure
-- React state and component patterns
-- Redis data structure usage
-- ORM entity/session/repository boundaries
-- migration tool rollout behavior
-- Electron process boundaries
-- ROS 2 node and message boundaries
+**Backend**: Spring Boot, Django, FastAPI, Flask, Express, NestJS, Rails, Laravel, ASP.NET Core, Gin, Ktor, Play, Actix-web, Axum, Phoenix, Fiber, Echo, Micronaut, Quarkus, Vert.x, Rocket, Tornado, Sanic, Falcon
+**Frontend**: React, Vue, Angular, Svelte, Next.js, Nuxt, Remix, Solid.js, Qwik, Preact, Astro, Ember.js, Lit, Alpine.js, SvelteKit, Mithril, Backbone.js, Stencil
+**Mobile**: Android, iOS, Flutter, React Native, Kotlin Multiplatform, Ionic, Expo, Xamarin
+**Desktop**: Electron, Tauri, Qt, .NET MAUI, JavaFX
+**Data**: Spark, Flink, Airflow, Kafka, dbt, Prefect, Dagster, Beam, Kubeflow
+**AI Agent**: LangChain, LlamaIndex, Semantic Kernel, CrewAI, AutoGen, Haystack, Dify, Rasa, DSPy
+**Database Tools**: Flyway, Liquibase, Atlas, Bytebase
+**Java Ecosystem**: Hibernate, MyBatis, Spring Data JPA, Spring MVC, Struts, jOOQ, Reactor
+**Python ORM**: SQLAlchemy, Alembic, Django ORM, Peewee, SQLModel
+**TypeScript Data**: Prisma, TypeORM, Sequelize, Mongoose, Drizzle ORM, Knex.js, MikroORM
+**Robotics**: ROS 2, MoveIt, Gazebo, Webots, Isaac Sim
 
 Use `skills/frameworks/` when the guidance depends on framework behavior, lifecycle, conventions, or APIs.
 
@@ -120,10 +128,10 @@ Use `knowledge/` as the shared concept library behind skills:
 
 - `knowledge/principles/`: reusable design principles.
 - `knowledge/paradigms/`: programming model concepts.
-- `knowledge/languages/`: language-specific architecture idioms.
+- `knowledge/languages/`: 40+ language-specific architecture idioms.
 - `knowledge/application-areas/`: backend, frontend, pipeline, and operations workload concepts.
-- `knowledge/data-systems/`: relational, non-relational, cache, search, vector, and data architecture concepts.
-- `knowledge/frameworks/`: framework, ORM, migration, and generated-client concepts.
+- `knowledge/data-systems/`: 30+ relational, non-relational, cache, search, vector, and data architecture concepts.
+- `knowledge/frameworks/`: 80+ framework, ORM, migration, and generated-client concepts across 12 categories.
 - `knowledge/platform-ecosystems/`: external runtimes, vendor SDKs, platform callbacks, cloud, IoT, robotics, WeChat, and bot ecosystems.
 - `knowledge/platform/`: Linux, shell, process, filesystem, configuration, and deployment concerns.
 - `knowledge/methodologies/`: named learning systems, curricula, and source-oriented maps.

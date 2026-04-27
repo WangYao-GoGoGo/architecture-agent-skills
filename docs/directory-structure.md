@@ -23,11 +23,11 @@ knowledge/
   refactoring/       Behavior-preserving refactoring moves
   architecture/      Application styles, distributed systems, integration patterns, governance
   paradigms/         OO, procedural, functional, systems-oriented concepts
-  languages/         Java, Python, C, SQL, TypeScript, JavaScript, Shell
+  languages/         40+ languages across systems, scripting, web, scientific, functional, database, hardware, blockchain, legacy, and WASM
   application-areas/ Backend, frontend, data pipeline, operations
-  data-systems/      Core data-system concepts and data-system families
+  data-systems/      Core data-system concepts and data-system families (30+ database technologies)
   api/               API contracts and compatibility
-  frameworks/        Framework, ORM, migration, frontend framework knowledge
+  frameworks/        80+ frameworks across backend, frontend, mobile, desktop, data, AI agent, database tools, Java, Python ORM, TypeScript data, and robotics
   platform-ecosystems/ External runtimes, vendor SDKs, robots, WeChat, cloud, IoT
   platform/          Linux, shell, process, filesystem, config, deploy
   methodologies/     Named learning systems and source-oriented maps
@@ -45,10 +45,10 @@ Keep `frameworks/` for technology behavior that runs inside or alongside the app
 skills/
   core/              Cross-language workflows
   paradigms/         Paradigm-specific workflows
-  languages/         Language-specific workflows
-  domains/           Technical-domain workflows
-  frameworks/        Framework-specific workflows
-  platforms/          External-platform and vendor-ecosystem workflows
+  languages/         Language-specific workflows (40+ languages)
+  domains/           Technical-domain workflows (backend, frontend, database, etc.)
+  frameworks/        Framework-specific workflows (80+ frameworks across 12 categories)
+  platforms/         External-platform and vendor-ecosystem workflows
 ```
 
 Every non-trivial skill should have:

@@ -19,12 +19,12 @@ That means every meaningful change should answer:
 
 The project scope is broad software architecture for agent-assisted coding:
 
-- Core workflows: architecture before coding, refactoring planning, dependency boundary review, architecture decision review.
-- Paradigms: object-oriented, procedural, functional, and systems-oriented design.
-- Languages: Java, Python, C, SQL, TypeScript, JavaScript, Shell, and future language packs.
-- Domains: backend services, frontend component architecture, databases, caches, search systems, vector search, data pipelines, APIs, operations, and integrations.
-- Frameworks: ORMs, migration tools, frontend frameworks, backend frameworks, generated clients, and framework lifecycle boundaries.
-- Knowledge: principles, design patterns, architecture patterns, language idioms, framework boundaries, code smells, data modeling smells, operational risks, and refactoring moves.
+- **Core workflows**: architecture before coding, refactoring planning, dependency boundary review, architecture decision review.
+- **Paradigms**: object-oriented, procedural, functional, and systems-oriented design.
+- **Languages**: 40+ languages across systems (Go, Rust, C, C++, C#, Swift, Kotlin, Zig, Nim, Assembly, Ada), scripting (Ruby, PHP, JavaScript, TypeScript, Python, Shell, Lua, Perl), web (HTML, CSS), scientific (R, Julia, MATLAB, Fortran), functional (Scala, Clojure, Haskell, OCaml, Elixir, Erlang), database (SQL, GraphQL), hardware (VHDL/Verilog), blockchain (Solidity), legacy (COBOL), and WebAssembly (WASM).
+- **Domains**: backend services, frontend component architecture, databases, caches, search systems, vector search, data pipelines, APIs, operations, and integrations.
+- **Frameworks**: 80+ frameworks across backend (Spring Boot, Django, FastAPI, Express, NestJS, Rails, Laravel, ASP.NET Core, Gin, Ktor, Play, Actix-web, Axum, Phoenix, Fiber, Echo, Micronaut, Quarkus, Vert.x, Rocket, Tornado, Sanic, Falcon), frontend (React, Vue, Angular, Svelte, Next.js, Nuxt, Remix, Solid.js, Qwik, Preact, Astro, Ember.js, Lit, Alpine.js, SvelteKit, Mithril, Backbone.js, Stencil), mobile (Android, iOS, Flutter, React Native, Kotlin Multiplatform, Ionic, Expo, Xamarin), desktop (Electron, Tauri, Qt, .NET MAUI, JavaFX), data (Spark, Flink, Airflow, Kafka, dbt, Prefect, Dagster, Beam, Kubeflow), AI agent (LangChain, LlamaIndex, Semantic Kernel, CrewAI, AutoGen, Haystack, Dify, Rasa, DSPy), database tools (Flyway, Liquibase, Atlas, Bytebase), Java ecosystem (Hibernate, MyBatis, Spring Data JPA, Spring MVC, Struts, jOOQ, Reactor), Python ORM (SQLAlchemy, Alembic, Django ORM, Peewee, SQLModel), TypeScript data (Prisma, TypeORM, Sequelize, Mongoose, Drizzle ORM, Knex.js, MikroORM), and robotics (ROS 2, MoveIt, Gazebo, Webots, Isaac Sim).
+- **Knowledge**: principles, design patterns, architecture patterns, language idioms, framework boundaries, code smells, data modeling smells, operational risks, and refactoring moves.
 
 Object-oriented architecture is an early content focus because it has a mature vocabulary around responsibilities, patterns, and refactoring. It should be treated as one strong pillar, not the outer wall of the project.
 
@@ -51,7 +51,7 @@ A good skill should make an agent produce:
 
 1. Make the core skills usable: architecture before coding, pattern selection, refactoring planning, dependency boundary review.
 2. Build the first paradigm packs: object-oriented, procedural modular design, functional composition, and systems boundary review.
-3. Add Java, Python, C, SQL, TypeScript, JavaScript, and Shell language packs with concrete before/after examples.
+3. Add language packs across systems, scripting, web, scientific, functional, database, hardware, blockchain, legacy, and WebAssembly languages.
 4. Add database, cache, backend, frontend, data pipeline, operations, and vector search domain packs.
-5. Add framework packs for ORMs, migration tools, and frontend/backend frameworks.
+5. Add framework packs for backend, frontend, mobile, desktop, data, AI agent, database tools, Java, Python ORM, TypeScript data, and robotics frameworks.
 6. Add evaluation checklists so contributors can judge whether a skill improves agent behavior.

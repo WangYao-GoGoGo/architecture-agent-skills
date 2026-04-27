@@ -21,13 +21,71 @@ Core skills should load only the knowledge needed for the task:
 
 ## Language Skills
 
-- Java: `knowledge/languages/java/`, plus OO, framework, and data-system cards as needed.
-- Python: `knowledge/languages/python/`, plus clean architecture, ORM, and framework cards as needed.
+Each language skill pairs with its corresponding knowledge card:
+
+**Systems & Performance:**
+- Go: `knowledge/languages/go/`, plus concurrency and systems cards.
+- Rust: `knowledge/languages/rust/`, plus ownership and systems cards.
 - C: `knowledge/languages/c/`, plus procedural and systems-oriented cards.
-- SQL: `knowledge/languages/sql/`, plus data-system cards.
-- TypeScript: `knowledge/languages/typescript/`, plus frontend, API, and framework cards.
+- C++: `knowledge/languages/cpp/`, plus OO and template cards.
+- C#: `knowledge/languages/csharp/`, plus .NET and async cards.
+- Swift: `knowledge/languages/swift/`, plus iOS and protocol cards.
+- Kotlin: `knowledge/languages/kotlin/`, plus JVM and coroutine cards.
+- Zig: `knowledge/languages/zig/`, plus systems cards.
+- Nim: `knowledge/languages/nim/`, plus systems cards.
+- Assembly: `knowledge/languages/assembly/`, plus low-level and hardware cards.
+- Ada: `knowledge/languages/ada/`, plus safety-critical and real-time cards.
+
+**Scripting & Dynamic:**
+- Ruby: `knowledge/languages/ruby/`, plus Rails and metaprogramming cards.
+- PHP: `knowledge/languages/php/`, plus Laravel/Symfony cards.
 - JavaScript: `knowledge/languages/javascript/`, plus frontend, API, and framework cards.
+- TypeScript: `knowledge/languages/typescript/`, plus frontend, API, and framework cards.
+- Python: `knowledge/languages/python/`, plus clean architecture, ORM, and framework cards.
 - Shell: `knowledge/languages/shell/`, plus operations cards.
+- Lua: `knowledge/languages/lua/`, plus embedded and game cards.
+- Perl: `knowledge/languages/perl/`, plus text processing and CPAN cards.
+
+**Web & Markup:**
+- HTML: `knowledge/languages/html/`, plus accessibility and SEO cards.
+- CSS: `knowledge/languages/css/`, plus responsive and layout cards.
+
+**Scientific & Numerical:**
+- R: `knowledge/languages/r/`, plus statistics and data science cards.
+- Julia: `knowledge/languages/julia/`, plus scientific computing cards.
+- MATLAB: `knowledge/languages/matlab/`, plus numerical computing cards.
+- Fortran: `knowledge/languages/fortran/`, plus HPC cards.
+
+**Functional & JVM:**
+- Scala: `knowledge/languages/scala/`, plus functional and JVM cards.
+- Clojure: `knowledge/languages/clojure/`, plus functional and JVM cards.
+- Haskell: `knowledge/languages/haskell/`, plus functional and type-level cards.
+- OCaml/F#: `knowledge/languages/ocaml/`, plus functional and .NET cards.
+- Elixir: `knowledge/languages/elixir/`, plus OTP and Phoenix cards.
+- Erlang: `knowledge/languages/erlang/`, plus OTP and distributed systems cards.
+
+**Database & Query:**
+- SQL: `knowledge/languages/sql/`, plus data-system cards.
+- GraphQL: `knowledge/languages/graphql/`, plus API design cards.
+
+**Hardware & Embedded:**
+- VHDL/Verilog: `knowledge/languages/vhdl/`, plus FPGA and digital design cards.
+
+**Blockchain:**
+- Solidity: `knowledge/languages/solidity/`, plus Ethereum and smart contract cards.
+
+**Mainframe & Legacy:**
+- COBOL: `knowledge/languages/cobol/`, plus mainframe cards.
+
+**WebAssembly:**
+- WASM: `knowledge/languages/wasm/`, plus browser and performance cards.
+
+**Java Ecosystem:**
+- Java: `knowledge/languages/java/`, plus OO, framework, and data-system cards.
+
+**Mobile & UI:**
+- Dart: `knowledge/languages/dart/`, plus Flutter cards.
+- Groovy: `knowledge/languages/groovy/`, plus Gradle and Grails cards.
 
 ## Domain Skills
 
@@ -40,12 +98,20 @@ Core skills should load only the knowledge needed for the task:
 
 ## Framework Skills
 
-- Framework boundary review: `knowledge/frameworks/core/framework-boundaries.md`
-- ORM boundary review: `knowledge/frameworks/orm/orm-boundaries.md`, `knowledge/data-systems/`
-- Migration tools: `knowledge/frameworks/migrations/migration-tools.md`, `knowledge/data-systems/core/migrations.md`
-- Frontend frameworks: `knowledge/frameworks/frontend/frontend-frameworks.md`, `knowledge/application-areas/frontend/`
-- Backend, mobile, desktop, data, and AI-agent frameworks: `knowledge/frameworks/`, loaded by `framework-boundary-review` or a narrower domain/language skill until a dedicated framework workflow is needed.
-- Robotics frameworks: `knowledge/frameworks/robotics/`, plus `knowledge/platform-ecosystems/robotics/` when hardware or vendor runtime constraints matter.
+- **Framework boundary review**: `knowledge/frameworks/core/framework-boundaries.md`
+- **ORM boundary review**: `knowledge/frameworks/orm/orm-boundaries.md`, `knowledge/data-systems/`
+- **Backend frameworks**: `knowledge/frameworks/backend/` (Spring Boot, Django, FastAPI, Flask, Express, NestJS, Rails, Laravel, ASP.NET Core, Gin, Ktor, Play, Actix-web, Axum, Phoenix, Fiber, Echo, Micronaut, Quarkus, Vert.x, Rocket, Tornado, Sanic, Falcon)
+- **Frontend frameworks**: `knowledge/frameworks/frontend/frontend-frameworks.md`, `knowledge/frameworks/frontend/` (React, Vue, Angular, Svelte, Next.js, Nuxt, Remix, Solid.js, Qwik, Preact, Astro, Ember.js, Lit, Alpine.js, SvelteKit, Mithril, Backbone.js, Stencil)
+- **Mobile frameworks**: `knowledge/frameworks/mobile/` (Android, iOS, Flutter, React Native, Kotlin Multiplatform, Ionic, Expo, Xamarin)
+- **Desktop frameworks**: `knowledge/frameworks/desktop/` (Electron, Tauri, Qt, .NET MAUI, JavaFX)
+- **Data frameworks**: `knowledge/frameworks/data/` (Spark, Flink, Airflow, Kafka, dbt, Prefect, Dagster, Beam, Kubeflow)
+- **AI Agent frameworks**: `knowledge/frameworks/ai-agent/` (LangChain, LlamaIndex, Semantic Kernel, CrewAI, AutoGen, Haystack, Dify, Rasa, DSPy)
+- **Database tools**: `knowledge/frameworks/database/` (Flyway, Liquibase, Atlas, Bytebase)
+- **Java ecosystem**: `knowledge/frameworks/java/` (Hibernate, MyBatis, Spring Data JPA, Spring MVC, Struts, jOOQ, Reactor)
+- **Python ORM**: `knowledge/frameworks/python/` (SQLAlchemy, Alembic, Django ORM, Peewee, SQLModel)
+- **TypeScript data**: `knowledge/frameworks/typescript/` (Prisma, TypeORM, Sequelize, Mongoose, Drizzle ORM, Knex.js, MikroORM)
+- **Robotics frameworks**: `knowledge/frameworks/robotics/` (ROS 2, MoveIt, Gazebo, Webots, Isaac Sim), plus `knowledge/platform-ecosystems/robotics/` when hardware or vendor runtime constraints matter.
+- **Migration tools**: `knowledge/frameworks/migrations/migration-tools.md`, `knowledge/data-systems/core/migrations.md`
 
 ## Platform Skills
 
