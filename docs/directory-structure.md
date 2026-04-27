@@ -24,11 +24,11 @@ knowledge/
   architecture/      Application styles, distributed systems, integration patterns, governance
   paradigms/         OO, procedural, functional, systems-oriented concepts
   languages/         Java, Python, C, SQL, TypeScript, JavaScript, Shell
-  domains/           Backend, frontend, data pipeline, operations
-  database/          Core database concepts and database families
+  application-areas/ Backend, frontend, data pipeline, operations
+  data-systems/      Core data-system concepts and data-system families
   api/               API contracts and compatibility
   frameworks/        Framework, ORM, migration, frontend framework knowledge
-  operations/        Linux, shell, process, filesystem, config, deploy
+  platform/          Linux, shell, process, filesystem, config, deploy
   methodologies/     Named learning systems and source-oriented maps
 ```
 

@@ -34,11 +34,11 @@ knowledge/
   architecture/         Application styles, distributed systems, integration patterns, governance
   paradigms/            OO, procedural, functional, systems-oriented concepts
   languages/            Java, Python, C, SQL, TypeScript, JavaScript, Shell idioms
-  domains/              Backend, frontend, data pipeline, operations
-  database/             Relational, document, key-value, graph, search, vector, cache
+  application-areas/    Backend, frontend, data pipeline, operations
+  data-systems/         Relational, document, key-value, graph, search, vector, cache
   api/                  Contracts, versioning, idempotency, pagination, errors
   frameworks/           Framework boundaries, ORM, migrations, frontend frameworks
-  operations/           Linux, shell, process, filesystem, configuration
+  platform/             Linux, shell, process, filesystem, configuration
   methodologies/        Named learning systems and source-oriented maps
 
 templates/              Reusable templates for new skills and reports

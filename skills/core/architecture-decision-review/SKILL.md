@@ -20,7 +20,7 @@ Use this skill when a decision has meaningful long-term consequences.
 - `knowledge/architecture/application-styles/` for in-process architecture choices.
 - `knowledge/architecture/distributed-systems/` for service/deployment choices.
 - `knowledge/architecture/integration-patterns/` for event, CQRS, saga, outbox, API gateway, and BFF choices.
-- `knowledge/database/`, `knowledge/api/`, or `knowledge/frameworks/` when the decision touches those areas.
+- `knowledge/data-systems/`, `knowledge/api/`, or `knowledge/frameworks/` when the decision touches those areas.
 
 ## Workflow
 

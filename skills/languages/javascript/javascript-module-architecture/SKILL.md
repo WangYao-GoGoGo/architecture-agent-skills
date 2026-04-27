@@ -8,7 +8,7 @@ description: Use when reviewing or designing JavaScript module boundaries, async
 ## Knowledge To Use
 
 - `knowledge/languages/javascript/`
-- `knowledge/domains/frontend/` when UI state or components are involved.
+- `knowledge/application-areas/frontend/` when UI state or components are involved.
 - `knowledge/api/contract-design.md` when API contracts are involved.
 - `knowledge/frameworks/frontend/frontend-frameworks.md` when framework lifecycle affects the design.
 

@@ -7,9 +7,9 @@ description: Use when reviewing vector search, embedding pipelines, chunking, me
 
 ## Knowledge To Use
 
-- `knowledge/database/vector/`
-- `knowledge/database/search/`
-- `knowledge/database/core/access-patterns.md`
+- `knowledge/data-systems/vector/`
+- `knowledge/data-systems/search/`
+- `knowledge/data-systems/core/access-patterns.md`
 
 ## Workflow
 

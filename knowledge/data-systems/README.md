@@ -1,6 +1,6 @@
-# Database Knowledge
+# Data Systems Knowledge
 
-Reusable database architecture concepts for skills.
+Reusable data-system architecture concepts for skills.
 
 - `core/`: access patterns, consistency, migrations, indexing, and general caching.
 - `relational/`: relational schema, constraints, joins, and transactions.

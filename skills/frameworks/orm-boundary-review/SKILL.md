@@ -8,9 +8,9 @@ description: Use when reviewing ORM architecture across Hibernate, Spring Data J
 ## Knowledge To Use
 
 - `knowledge/frameworks/orm/orm-boundaries.md`
-- `knowledge/database/core/access-patterns.md`
-- `knowledge/database/core/consistency.md`
-- `knowledge/database/core/migrations.md`
+- `knowledge/data-systems/core/access-patterns.md`
+- `knowledge/data-systems/core/consistency.md`
+- `knowledge/data-systems/core/migrations.md`
 
 ## Workflow
 

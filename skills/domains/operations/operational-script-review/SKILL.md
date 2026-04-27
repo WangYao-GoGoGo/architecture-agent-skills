@@ -7,10 +7,10 @@ description: Use when reviewing operational automation such as Linux shell scrip
 
 ## Knowledge To Use
 
-- `knowledge/domains/operations/`
-- `knowledge/operations/shell/`
-- `knowledge/operations/process/`
-- `knowledge/operations/configuration/`
+- `knowledge/application-areas/operations/`
+- `knowledge/platform/shell/`
+- `knowledge/platform/process/`
+- `knowledge/platform/configuration/`
 - `knowledge/languages/shell/` when the implementation is shell.
 
 ## Workflow

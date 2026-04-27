@@ -101,10 +101,10 @@ Use `knowledge/` as the shared concept library behind skills:
 - `knowledge/principles/`: reusable design principles.
 - `knowledge/paradigms/`: programming model concepts.
 - `knowledge/languages/`: language-specific architecture idioms.
-- `knowledge/domains/`: backend, frontend, pipeline, and operations concepts.
-- `knowledge/database/`: relational, non-relational, cache, search, and vector concepts.
+- `knowledge/application-areas/`: backend, frontend, pipeline, and operations workload concepts.
+- `knowledge/data-systems/`: relational, non-relational, cache, search, vector, and data architecture concepts.
 - `knowledge/frameworks/`: framework, ORM, migration, and generated-client concepts.
-- `knowledge/operations/`: Linux, shell, process, filesystem, and configuration concerns.
+- `knowledge/platform/`: Linux, shell, process, filesystem, configuration, and deployment concerns.
 - `knowledge/methodologies/`: named learning systems, curricula, and source-oriented maps.
 
 For alignment rules, see `docs/knowledge-skill-map.md`.

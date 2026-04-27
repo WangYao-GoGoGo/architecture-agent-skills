@@ -8,9 +8,9 @@ description: Use when reviewing or writing Bash/POSIX shell scripts, Linux autom
 ## Knowledge To Use
 
 - `knowledge/languages/shell/`
-- `knowledge/operations/shell/`
-- `knowledge/operations/process/`
-- `knowledge/operations/configuration/`
+- `knowledge/platform/shell/`
+- `knowledge/platform/process/`
+- `knowledge/platform/configuration/`
 
 ## Workflow
 
