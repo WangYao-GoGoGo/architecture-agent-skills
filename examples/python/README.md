@@ -2,6 +2,8 @@
 
 Python examples should prefer idiomatic Python: modules, small classes, protocols, dataclasses, plain functions, and focused tests.
 
-Current example:
+## Examples
 
-- Payment processor large conditional refactored with Strategy.
+| Example | Skill | Status |
+|---------|-------|--------|
+| Large conditional → Strategy pattern | [`python`](../../skills/languages/python/) | ✅ Complete |

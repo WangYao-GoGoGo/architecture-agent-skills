@@ -1,0 +1,30 @@
+/* Before: Specificity war — overrides pile up, !important is used as a crutch. */
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 16px;
+}
+
+.content .card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sidebar .card {
+  padding: 8px;
+  font-size: 14px;
+}
+
+#featured-card.card {
+  border-color: blue !important;
+  box-shadow: 0 4px 8px rgba(0,0,255,0.2) !important;
+}
+
+.dark-theme .card {
+  background: #333 !important;
+  border-color: #555 !important;
+  color: white !important;
+}
+
+/* Six months later: nobody knows which rules actually apply */
