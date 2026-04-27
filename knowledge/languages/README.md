@@ -12,6 +12,8 @@ Language cards capture architecture idioms that affect how skills should design 
 - [`kotlin/`](kotlin/README.md) — Kotlin architecture idioms: coroutines, sealed classes, extensions
 - [`zig/`](zig/README.md) — Zig architecture idioms: comptime, allocators, error unions
 - [`nim/`](nim/README.md) — Nim architecture idioms: macros, templates, type system
+- [`assembly/`](assembly/README.md) — Assembly idioms: calling conventions, registers, SIMD
+- [`ada/`](ada/README.md) — Ada idioms: strong typing, tasking, safety-critical, SPARK
 
 ## Scripting & Dynamic
 - [`ruby/`](ruby/README.md) — Ruby architecture idioms: metaprogramming, blocks, mixins
@@ -22,10 +24,16 @@ Language cards capture architecture idioms that affect how skills should design 
 - [`shell/`](shell/README.md) — Shell architecture idioms: pipelines, error handling
 - [`lua/`](lua/README.md) — Lua architecture idioms: metatables, coroutines, embedding
 - [`perl/`](perl/README.md) — Perl architecture idioms: CPAN, Moose, text processing
+
+## Web & Markup
+- [`html/`](html/README.md) — HTML idioms: semantic markup, accessibility, ARIA, SEO
+- [`css/`](css/README.md) — CSS idioms: layout, responsive, custom properties, naming
+
+## Scientific & Numerical
 - [`r/`](r/README.md) — R architecture idioms: vectorized ops, functional pipelines
 - [`julia/`](julia/README.md) — Julia architecture idioms: multiple dispatch, type design
-- [`dart/`](dart/README.md) — Dart architecture idioms: null safety, streams, Flutter
-- [`groovy/`](groovy/README.md) — Groovy architecture idioms: DSLs, metaprogramming, Gradle
+- [`matlab/`](matlab/README.md) — MATLAB idioms: matrix ops, vectorization, Simulink
+- [`fortran/`](fortran/README.md) — Fortran idioms: arrays, modules, HPC, scientific computing
 
 ## Functional & JVM
 - [`scala/`](scala/README.md) — Scala architecture idioms: type classes, implicits, functional
@@ -39,10 +47,23 @@ Language cards capture architecture idioms that affect how skills should design 
 - [`sql/`](sql/README.md) — SQL architecture idioms: queries, schema, indexing
 - [`graphql/`](graphql/README.md) — GraphQL architecture idioms: schema, resolvers, DataLoader
 
+## Hardware & Embedded
+- [`vhdl/`](vhdl/README.md) — VHDL/Verilog idioms: FSM, FPGA, CDC, pipeline design
+
 ## Blockchain
-- [`solidity/`](solidity/README.md) — Solidity architecture idioms: smart contracts, gas, security
+- [`solidity/`](solidity/README.md) — Solidity idioms: smart contracts, gas, security
+
+## Mainframe & Legacy
+- [`cobol/`](cobol/README.md) — COBOL idioms: program structure, file processing, batch
+
+## WebAssembly
+- [`wasm/`](wasm/README.md) — WASM idioms: module design, memory, JS interop
 
 ## Java Ecosystem
 - [`java/`](java/README.md) — Java architecture idioms: packages, DI, transactions, OO
+
+## Mobile & UI
+- [`dart/`](dart/README.md) — Dart idioms: null safety, streams, Flutter architecture
+- [`groovy/`](groovy/README.md) — Groovy idioms: DSLs, metaprogramming, Gradle
 
 Use these cards when a skill needs language-specific module, type, error-handling, dependency, testing, or runtime guidance.

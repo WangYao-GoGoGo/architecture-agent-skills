@@ -12,6 +12,8 @@ Language skills adapt architecture guidance to language idioms, runtime behavior
 - [`kotlin/`](kotlin/README.md) — Coroutines, sealed classes, extensions, multiplatform
 - [`zig/`](zig/README.md) — Comptime, allocators, error unions, systems programming
 - [`nim/`](nim/README.md) — Macros, templates, type system, systems programming
+- [`assembly/`](assembly/README.md) — Calling conventions, registers, SIMD, low-level optimization
+- [`ada/`](ada/README.md) — Strong typing, tasking, safety-critical, SPARK
 
 ## Scripting & Dynamic
 - [`ruby/`](ruby/README.md) — Metaprogramming, blocks, mixins, Rails conventions
@@ -22,10 +24,16 @@ Language skills adapt architecture guidance to language idioms, runtime behavior
 - [`shell/`](shell/README.md) — Script architecture, pipelines, error handling
 - [`lua/`](lua/README.md) — Metatables, coroutines, embedded scripting
 - [`perl/`](perl/README.md) — CPAN, Moose/Moo, text processing, module design
+
+## Web & Markup
+- [`html/`](html/README.md) — Semantic markup, accessibility, ARIA, web components
+- [`css/`](css/README.md) — Layout (Flexbox/Grid), responsive design, custom properties, BEM
+
+## Scientific & Numerical
 - [`r/`](r/README.md) — Vectorized ops, functional pipelines, package development
 - [`julia/`](julia/README.md) — Multiple dispatch, type design, metaprogramming, parallelism
-- [`dart/`](dart/README.md) — Null safety, async/await, streams, Flutter architecture
-- [`groovy/`](groovy/README.md) — DSL construction, metaprogramming, Gradle, Grails
+- [`matlab/`](matlab/README.md) — Matrix operations, vectorization, Simulink, numerical computing
+- [`fortran/`](fortran/README.md) — Array operations, modules, HPC, scientific computing
 
 ## Functional & JVM
 - [`scala/`](scala/README.md) — Functional programming, type classes, Akka, implicits/givens
@@ -39,8 +47,21 @@ Language skills adapt architecture guidance to language idioms, runtime behavior
 - [`sql/`](sql/README.md) — Query structure, schema refactoring, indexing
 - [`graphql/`](graphql/README.md) — Schema design, resolvers, DataLoader, subscriptions
 
+## Hardware & Embedded
+- [`vhdl/`](vhdl/README.md) — VHDL/Verilog, FSM design, FPGA, pipeline architecture
+
 ## Blockchain
 - [`solidity/`](solidity/README.md) — Smart contracts, gas optimization, access control, upgradeability
 
+## Mainframe & Legacy
+- [`cobol/`](cobol/README.md) — Program structure, file processing, batch processing, mainframe
+
+## WebAssembly
+- [`wasm/`](wasm/README.md) — Module design, memory management, JS interop, performance
+
 ## Java Ecosystem
 - [`java/`](java/README.md) — OO refactoring, Spring architecture, DI, transactions
+
+## Mobile & UI
+- [`dart/`](dart/README.md) — Null safety, async/await, streams, Flutter architecture
+- [`groovy/`](groovy/README.md) — DSL construction, metaprogramming, Gradle, Grails
