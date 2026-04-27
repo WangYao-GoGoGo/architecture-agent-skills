@@ -4,6 +4,14 @@ Gaming platforms include console SDKs, storefronts, online services, matchmaking
 
 Examples include Steam (Steamworks), PlayStation (Sony NP), Xbox (Xbox Live), Nintendo (NintendoSDK), and Epic Games (EOS).
 
+## Platform-Specific Cards
+
+- `steam-platform.md`: Steamworks SDK, achievements, leaderboards, cloud saves, matchmaking, workshop.
+- `playstation-platform.md`: Sony NP SDK, trophies, leaderboards, cloud saves, TRC certification.
+- `xbox-platform.md`: Xbox Live SDK, achievements, leaderboards, cloud saves, Xbox certification.
+- `nintendo-platform.md`: NintendoSDK, achievements, leaderboards, cloud saves, LotCheck certification.
+- `epic-platform.md`: Epic Online Services (EOS) SDK, achievements, leaderboards, cloud saves, matchmaking.
+
 ## Heuristics
 
 - Treat SDK initialization, authentication, online service calls, achievement/trophy unlocks, matchmaking sessions, and save data as platform contracts.

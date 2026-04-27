@@ -4,6 +4,13 @@ Social media platforms include content publishing, media upload, user data acces
 
 Examples include Twitter/X (API v2), TikTok (TikTok API), Instagram (Graph API), and YouTube (Data API v3).
 
+## Platform-Specific Cards
+
+- `twitter-platform.md`: Twitter/X API v2, OAuth 2.0, tweet publishing, media upload, analytics.
+- `tiktok-platform.md`: TikTok API, video publishing, OAuth, content policies, analytics.
+- `instagram-platform.md`: Instagram Graph API, media publishing, reels, carousel, analytics.
+- `youtube-platform.md`: YouTube Data API v3, video upload, captions, playlists, analytics.
+
 ## Heuristics
 
 - Treat API endpoints, OAuth flows, rate limits, webhook events, and content policies as platform contracts.

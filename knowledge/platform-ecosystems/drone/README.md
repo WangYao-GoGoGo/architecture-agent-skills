@@ -4,6 +4,11 @@ Drone and UAV platforms include autopilot systems, flight controllers, ground co
 
 Examples include DJI (Mobile SDK, OSDK, Pilot), ArduPilot (MAVLink), and PX4 (MAVLink, uORB).
 
+## Platform-Specific Cards
+
+- `dji-drone.md`: DJI Mobile SDK, OSDK, Pilot, mission planning, camera/gimbal control, safety.
+- `ardupilot-platform.md`: ArduPilot/PX4, MAVLink, mission planning, SITL simulation, safety.
+
 ## Heuristics
 
 - Treat mission commands, telemetry data, flight controller state, geofence definitions, and failsafe behavior as platform contracts.

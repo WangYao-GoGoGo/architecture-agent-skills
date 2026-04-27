@@ -4,6 +4,13 @@ Payment platforms include online payment gateways, merchant APIs, subscription b
 
 Examples include Alipay Pay, WeChat Pay, Stripe, and PayPal.
 
+## Platform-Specific Cards
+
+- `stripe-payment.md`: Stripe payment intents, checkout, webhooks, and reconciliation.
+- `paypal-payment.md`: PayPal orders, capture, webhooks, and reconciliation.
+
+> Note: Alipay payment and WeChat Pay cards live under `communication-platforms/` and `wechat/` respectively, as they are part of those broader platform ecosystems.
+
 ## Heuristics
 
 - Treat payment creation, notification handling, refunds, disputes, and settlement as platform contracts.

@@ -2,6 +2,13 @@
 
 Cloud platforms are architecture ecosystems because identity, regions, networking, deployment, managed services, billing, quotas, and observability are partly platform-owned.
 
+## Platform-Specific Cards
+
+- `aws-cloud.md`: AWS IAM, VPC, Lambda, S3, DynamoDB, SQS, and Well-Architected Framework.
+- `azure-cloud.md`: Azure RBAC, VNet, Functions, Storage, Cosmos DB, Service Bus, and Well-Architected Framework.
+- `gcp-cloud.md`: GCP IAM, VPC, Cloud Functions, Storage, Firestore, Pub/Sub, and Architecture Framework.
+- `alibaba-cloud.md`: Alibaba Cloud RAM, VPC, Function Compute, OSS, Table Store, MNS, and compliance.
+
 ## Heuristics
 
 - Separate application code, infrastructure definition, platform-managed services, and operational policy.

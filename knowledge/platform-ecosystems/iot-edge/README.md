@@ -2,6 +2,12 @@
 
 IoT and edge architecture depends on devices, gateways, unreliable networks, telemetry, firmware or app updates, local storage, remote commands, security, and fleet operations.
 
+## Platform-Specific Cards
+
+- `aws-iot.md`: AWS IoT Core, device identity, provisioning, OTA, MQTT topics, shadow state.
+- `azure-iot.md`: Azure IoT Hub, DPS, device identity, OTA, message routing, command handling.
+- `thingsboard-iot.md`: ThingsBoard, MQTT/CoAP/HTTP ingestion, rule engine, RPC, dashboards.
+
 ## Heuristics
 
 - Separate device code, gateway code, cloud ingestion, command handling, fleet management, and domain workflows.
