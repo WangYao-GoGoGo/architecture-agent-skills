@@ -224,13 +224,65 @@ The CLI delegates to the Python scripts under [`scripts/`](scripts/).
 
 ## Contributing
 
+### Branch Model
+
+This project uses a two-branch model:
+
+| Branch | Purpose |
+|---|---|
+| [`master`](https://github.com/architecture-agent-skills/architecture-agent-skills/tree/master) | Stable releases. All changes arrive via pull requests from `dev`. |
+| [`dev`](https://github.com/architecture-agent-skills/architecture-agent-skills/tree/dev) | Active development. Contributors fork from and submit pull requests to this branch. |
+
+### Contribution Workflow
+
+```text
+1. Fork this repository on GitHub
+2. Create a feature branch from dev
+3. Make your changes
+4. Run validation: python3 scripts/validate_skills.py
+5. Submit a pull request to the dev branch
+6. Maintainers review and merge into dev
+7. Changes are batched and merged from dev into master for releases
+```
+
+### What You Can Contribute
+
 This repository is intentionally organized so contributors can add one small, high-quality unit at a time:
 
-- a skill under `skills/`
-- a knowledge card under `knowledge/`
-- a before/after example under `examples/`
-- an evaluation checklist under `tests/`
+- a **skill** under `skills/` — see [`docs/skill-design-guide.md`](docs/skill-design-guide.md)
+- a **knowledge card** under `knowledge/`
+- a **before/after example** under `examples/`
+- an **evaluation checklist** under `tests/`
+- an **install script improvement** under `scripts/`
 
-Start with `docs/skill-design-guide.md` and use the templates in `templates/`.
+### Getting Started
 
-For placement rules, see `docs/taxonomy.md`. For the full directory model, see `docs/directory-structure.md`. For skill-to-knowledge alignment, see `docs/knowledge-skill-map.md`.
+1. **Fork** the repo on GitHub.
+2. **Clone** your fork and switch to the `dev` branch:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/architecture-agent-skills.git
+   cd architecture-agent-skills
+   git checkout dev
+   ```
+3. **Create a feature branch**:
+   ```bash
+   git checkout -b feat/my-new-skill
+   ```
+4. **Make your changes** and validate:
+   ```bash
+   python3 scripts/validate_skills.py --strict
+   ```
+5. **Commit and push**:
+   ```bash
+   git push origin feat/my-new-skill
+   ```
+6. **Open a pull request** on GitHub against the `dev` branch.
+
+### Guidelines
+
+- Use the templates in [`templates/`](templates/) as starting points.
+- For placement rules, see [`docs/taxonomy.md`](docs/taxonomy.md).
+- For the full directory model, see [`docs/directory-structure.md`](docs/directory-structure.md).
+- For skill-to-knowledge alignment, see [`docs/knowledge-skill-map.md`](docs/knowledge-skill-map.md).
+- Run `python3 scripts/validate_skills.py --strict` before submitting.
+- Keep each pull request focused on a single change.
