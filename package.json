@@ -1,0 +1,37 @@
+{
+  "name": "archskill",
+  "version": "0.1.0",
+  "description": "CLI for managing Architecture Agent Skills — install, list, validate, and scaffold skills for Claude Code.",
+  "keywords": [
+    "claude-code",
+    "architecture",
+    "skills",
+    "ai-coding-agent",
+    "refactoring",
+    "code-review"
+  ],
+  "homepage": "https://github.com/architecture-agent-skills/architecture-agent-skills",
+  "bugs": {
+    "url": "https://github.com/architecture-agent-skills/architecture-agent-skills/issues"
+  },
+  "license": "MIT",
+  "author": "Architecture Agent Skills contributors",
+  "bin": {
+    "archskill": "./bin/archskill.js"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "skills/",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/architecture-agent-skills/architecture-agent-skills.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "preferGlobal": true
+}

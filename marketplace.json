@@ -1,0 +1,51 @@
+{
+  "$schema": "https://claude.ai/schemas/marketplace.json",
+  "name": "Architecture Agent Skills",
+  "description": "A skill library for helping AI coding agents design, review, and refactor software with explicit architecture thinking before writing large blocks of code.",
+  "version": "0.1.0",
+  "author": "Architecture Agent Skills contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/architecture-agent-skills/architecture-agent-skills",
+  "repository": "https://github.com/architecture-agent-skills/architecture-agent-skills",
+  "tags": [
+    "architecture",
+    "refactoring",
+    "code-review",
+    "design-patterns",
+    "claude-code",
+    "ai-coding-agent"
+  ],
+  "categories": [
+    "Architecture",
+    "Code Review",
+    "Refactoring",
+    "Debugging"
+  ],
+  "skills": {
+    "core": [
+      "architecture-before-coding",
+      "refactoring-planner",
+      "design-pattern-selector",
+      "dependency-boundary-review",
+      "architecture-decision-review",
+      "anti-overengineering-review",
+      "new-project-scaffolding",
+      "architecture-quality-review",
+      "runtime-error-diagnosis",
+      "test-generation-planner",
+      "behavior-preservation-validator",
+      "debug-report-generator"
+    ],
+    "paradigms": [
+      "functional-composition-review",
+      "oo-design-review",
+      "modular-procedural-refactor"
+    ],
+    "languages": [
+      "sql-query-structure",
+      "sql-schema-refactor"
+    ]
+  },
+  "minClaudeCodeVersion": "1.0.0",
+  "platforms": ["claude-code"]
+}

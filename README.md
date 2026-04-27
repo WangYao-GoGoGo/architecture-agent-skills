@@ -134,6 +134,94 @@ examples/<language>/<example-name>/
   commands.md      How to run, test, and validate
 ```
 
+## Installation
+
+### Claude Code (Manual)
+
+Copy skill directories into your Claude Code skills folder:
+
+```bash
+# Global install (all users, all projects)
+cp -r skills/core ~/.claude/skills/
+cp -r skills/paradigms ~/.claude/skills/
+cp -r skills/languages ~/.claude/skills/
+cp -r skills/domains ~/.claude/skills/
+
+# Project-local install (single project)
+mkdir -p .claude/skills/
+cp -r skills/core .claude/skills/
+cp -r skills/paradigms .claude/skills/
+```
+
+Restart Claude Code or reload skills after installation.
+
+### Using the Install Scripts
+
+Python 3.8+ scripts are provided in [`scripts/`](scripts/):
+
+```bash
+# List available skills
+python3 scripts/list_skills.py
+
+# Install all core skills globally
+python3 scripts/install_skill.py
+
+# Install a specific skill
+python3 scripts/install_skill.py --skill runtime-error-diagnosis
+
+# Install project-local (in .claude/skills/)
+python3 scripts/install_skill.py --project
+
+# Validate all installed skills
+python3 scripts/validate_skills.py
+
+# Validate with strict mode (fail on warnings)
+python3 scripts/validate_skills.py --strict
+```
+
+### Using the npm CLI
+
+If you have Node.js 18+, install the [`archskill`](package.json) CLI globally:
+
+```bash
+# Install globally from npm
+npm install -g archskill
+
+# Or link locally for development
+npm link
+
+# List installed skills
+archskill list
+
+# Install all skills
+archskill install
+
+# Validate skills
+archskill validate
+
+# Scaffold a new skill
+archskill new my-custom-skill
+```
+
+The CLI delegates to the Python scripts under [`scripts/`](scripts/).
+
+### Claude Code Plugin Marketplace
+
+> **Note**: The Claude Code Plugin Marketplace is not yet publicly available. These files are prepared for future compatibility.
+
+- [`marketplace.json`](marketplace.json) — Marketplace listing metadata
+- [`plugins/architecture-agent-skills/plugin.json`](plugins/architecture-agent-skills/plugin.json) — Plugin manifest
+
+### What Gets Installed
+
+| Directory | Contents |
+|---|---|
+| `~/.claude/skills/core/` | Cross-language architecture skills (12 skills) |
+| `~/.claude/skills/paradigms/` | Paradigm-specific skills (OO, functional, procedural) |
+| `~/.claude/skills/languages/` | Language-specific skills (SQL, etc.) |
+| `~/.claude/skills/domains/` | Domain-specific skills |
+| `~/.claude/skills/frameworks/` | Framework-specific skills (80+ frameworks) |
+
 ## Contributing
 
 This repository is intentionally organized so contributors can add one small, high-quality unit at a time:

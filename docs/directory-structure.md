@@ -11,6 +11,9 @@ examples/    Before/after examples and evaluation fixtures
 templates/   Authoring templates
 docs/        Project governance and contribution guidance
 tests/       Human-readable evaluation checklists
+scripts/     Installation and validation tooling (Python, Node.js)
+plugins/     Plugin manifests for Claude Code Plugin Marketplace
+bin/         CLI entry points (archskill npm package)
 ```
 
 ## Knowledge Structure
