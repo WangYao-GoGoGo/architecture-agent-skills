@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/skills-200%2B-blue?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/knowledge%20cards-300%2B-green?style=flat-square" alt="Knowledge Cards">
+  <img src="https://img.shields.io/badge/languages-40%2B-orange?style=flat-square" alt="Languages">
+  <img src="https://img.shields.io/badge/frameworks-80%2B-purple?style=flat-square" alt="Frameworks">
+  <img src="https://img.shields.io/badge/platforms-33%2B-teal?style=flat-square" alt="Platforms">
+  <img src="https://img.shields.io/badge/license-MIT-yellow?style=flat-square" alt="License">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs Welcome">
+</p>
+
+> **🌐 Language / 语言**: This README is in English. GitHub provides built-in page translation — use the language dropdown in your browser or append `?l=zh-CN` / `?l=ja` / `?l=ko` to the URL for auto-translation. We do not maintain separate translated files because the project has 200+ files across skills, knowledge, docs, and examples — keeping them in sync would be impractical.
+
 # Architecture Agent Skills
 
 Architecture Agent Skills is an open-source skill library for helping AI coding agents design, review, and refactor software with explicit architecture thinking before they write large blocks of code.
