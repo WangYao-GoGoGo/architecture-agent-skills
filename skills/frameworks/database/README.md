@@ -2,8 +2,11 @@
 
 Framework-specific database skills live here when guidance depends on migration tooling or ORM behavior.
 
-Current framework placeholders:
+## Current Frameworks
 
-- `flyway`
-- `liquibase`
-
+| Framework | Skill | Status |
+|-----------|-------|--------|
+| Flyway | `flyway-migration-review` | ✅ SKILL.md |
+| Liquibase | `liquibase-changeset-review` | ✅ SKILL.md |
+| Atlas | `atlas-schema-review` | 📝 Planned |
+| Bytebase | `bytebase-change-review` | 📝 Planned |

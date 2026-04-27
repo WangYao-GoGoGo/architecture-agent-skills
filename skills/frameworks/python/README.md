@@ -2,9 +2,12 @@
 
 Python framework-specific skills live here when architecture depends on ORM, migration, or framework lifecycle behavior.
 
-Current framework placeholders:
+## Current Frameworks
 
-- `sqlalchemy`
-- `alembic`
-- `django-orm`
-
+| Framework | Skill | Status |
+|-----------|-------|--------|
+| SQLAlchemy | `sqlalchemy-session-and-query-review` | ✅ SKILL.md |
+| Alembic | `alembic-migration-review` | ✅ SKILL.md |
+| Django ORM | `django-orm-architecture-review` | ✅ SKILL.md |
+| Peewee | `peewee-model-review` | 📝 Planned |
+| SQLModel | `sqlmodel-architecture-review` | 📝 Planned |

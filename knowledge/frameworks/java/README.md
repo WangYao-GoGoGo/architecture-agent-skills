@@ -5,4 +5,5 @@ Framework-specific Java architecture cards.
 - `hibernate/`
 - `spring-data-jpa/`
 - `mybatis/`
-
+- `jooq/`
+- `reactor/`

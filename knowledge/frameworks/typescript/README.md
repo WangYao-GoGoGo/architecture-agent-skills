@@ -6,4 +6,6 @@ Framework-specific TypeScript architecture cards.
 - `typeorm/`
 - `sequelize/`
 - `mongoose/`
-
+- `drizzle/`
+- `knex/`
+- `mikro-orm/`

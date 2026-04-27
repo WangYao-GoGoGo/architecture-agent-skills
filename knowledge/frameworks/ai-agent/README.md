@@ -7,3 +7,7 @@ AI agent framework cards cover prompt/workflow boundaries, tool orchestration, r
 - `semantic-kernel/`
 - `crewai/`
 - `autogen/`
+- `haystack/`
+- `dify/`
+- `rasa/`
+- `dspy/`

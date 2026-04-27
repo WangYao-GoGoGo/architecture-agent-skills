@@ -5,4 +5,9 @@ Data framework cards cover distributed processing, streaming, orchestration, ret
 - `spark/`
 - `flink/`
 - `airflow/`
-
+- `kafka/`
+- `dbt/`
+- `prefect/`
+- `dagster/`
+- `beam/`
+- `kubeflow/`

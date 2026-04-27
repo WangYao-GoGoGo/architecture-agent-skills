@@ -8,3 +8,5 @@ Mobile framework cards cover UI lifecycle, state, native capabilities, offline b
 - `react-native/`
 - `kotlin-multiplatform/`
 - `ionic/`
+- `expo/`
+- `xamarin/`

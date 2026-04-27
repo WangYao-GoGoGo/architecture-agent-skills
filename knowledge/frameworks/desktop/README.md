@@ -4,3 +4,6 @@ Desktop framework cards cover shell/runtime boundaries, native capabilities, loc
 
 - `electron/`
 - `tauri/`
+- `qt/`
+- `maui/`
+- `javafx/`

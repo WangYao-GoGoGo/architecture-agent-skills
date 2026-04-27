@@ -5,3 +5,5 @@ Robotics framework cards cover middleware, nodes, messages, real-time boundaries
 - `ros2/`
 - `moveit/`
 - `gazebo/`
+- `webots/`
+- `isaac-sim/`
