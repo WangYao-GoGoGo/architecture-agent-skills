@@ -13,6 +13,13 @@ Framework-specific skill packs currently present here:
 - `java/`
 - `python/`
 - `typescript/`
+- `backend/`
+- `frontend/`
+- `mobile/`
+- `desktop/`
+- `data/`
+- `ai-agent/`
+- `robotics/`
 
 Broader framework knowledge packs live under `knowledge/frameworks/`, including backend, frontend, mobile, desktop, data, AI-agent, and robotics framework cards. Use `framework-boundary-review` with those knowledge cards until a narrower executable workflow is needed.
 

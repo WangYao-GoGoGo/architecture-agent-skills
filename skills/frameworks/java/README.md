@@ -7,4 +7,7 @@ Current framework placeholders:
 - `hibernate`
 - `spring-data-jpa`
 - `mybatis`
+- `spring-boot`
+- `spring-mvc`
+- `struts`
 
