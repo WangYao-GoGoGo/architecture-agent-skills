@@ -205,13 +205,6 @@ archskill new my-custom-skill
 
 The CLI delegates to the Python scripts under [`scripts/`](scripts/).
 
-### Claude Code Plugin Marketplace
-
-> **Note**: The Claude Code Plugin Marketplace is not yet publicly available. These files are prepared for future compatibility.
-
-- [`marketplace.json`](marketplace.json) — Marketplace listing metadata
-- [`plugins/architecture-agent-skills/plugin.json`](plugins/architecture-agent-skills/plugin.json) — Plugin manifest
-
 ### What Gets Installed
 
 | Directory | Contents |
