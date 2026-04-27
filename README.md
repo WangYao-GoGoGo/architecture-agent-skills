@@ -260,7 +260,7 @@ This repository is intentionally organized so contributors can add one small, hi
 1. **Fork** the repo on GitHub.
 2. **Clone** your fork and switch to the `dev` branch:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/architecture-agent-skills.git
+   git clone https://github.com/WangYao-GoGoGo/architecture-agent-skills.git
    cd architecture-agent-skills
    git checkout dev
    ```
