@@ -7,7 +7,7 @@ description: Use when reviewing or designing ThingsBoard IoT platform architectu
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/iot-edge/`
+- `knowledge/platform/iot-edge/`
 - `knowledge/languages/java/`
 - `knowledge/languages/javascript/`
 - `knowledge/languages/python/`

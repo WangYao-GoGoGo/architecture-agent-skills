@@ -7,7 +7,7 @@ description: Use when reviewing or designing Alibaba Cloud architecture, includi
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/cloud/`
+- `knowledge/platform/cloud/`
 - `knowledge/platform/`
 - `knowledge/api/`
 

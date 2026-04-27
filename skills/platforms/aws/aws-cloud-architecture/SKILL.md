@@ -7,7 +7,7 @@ description: Use when reviewing or designing AWS cloud architecture, including c
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/cloud/`
+- `knowledge/platform/cloud/`
 - `knowledge/platform/`
 - `knowledge/api/`
 

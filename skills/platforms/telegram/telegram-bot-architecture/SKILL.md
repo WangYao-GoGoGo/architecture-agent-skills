@@ -7,7 +7,7 @@ description: Use when reviewing or designing Telegram bot architecture, includin
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/communication-platforms/`
+- `knowledge/platform/communication-platforms/`
 - `knowledge/languages/python/`
 - `knowledge/languages/javascript/`
 - `knowledge/api/`

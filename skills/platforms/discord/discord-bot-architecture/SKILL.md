@@ -7,7 +7,7 @@ description: Use when reviewing or designing Discord bot architecture, including
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/communication-platforms/`
+- `knowledge/platform/communication-platforms/`
 - `knowledge/languages/javascript/`
 - `knowledge/languages/python/`
 - `knowledge/api/`

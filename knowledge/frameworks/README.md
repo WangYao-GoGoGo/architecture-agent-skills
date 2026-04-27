@@ -21,4 +21,4 @@ This is a starter coverage map, not a claim that the framework list is complete.
 
 Use these cards when a skill in `skills/frameworks/` needs reusable concepts without copying them into every framework-specific skill.
 
-External ecosystems such as WeChat, Pepper/NAOqi, industrial robot controllers, cloud accounts, IoT fleets, and chat/bot platforms belong in `knowledge/platform-ecosystems/` because the platform owns runtime rules, deployment channels, permissions, review processes, hardware contracts, or callback behavior.
+External ecosystems such as WeChat, Pepper/NAOqi, industrial robot controllers, cloud accounts, IoT fleets, and chat/bot platforms belong in `knowledge/platform/` because the platform owns runtime rules, deployment channels, permissions, review processes, hardware contracts, or callback behavior.

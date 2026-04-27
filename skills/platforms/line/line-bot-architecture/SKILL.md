@@ -7,7 +7,7 @@ description: Use when reviewing or designing LINE bot and Messaging API architec
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/communication-platforms/`
+- `knowledge/platform/communication-platforms/`
 - `knowledge/languages/javascript/`
 - `knowledge/languages/python/`
 - `knowledge/api/`

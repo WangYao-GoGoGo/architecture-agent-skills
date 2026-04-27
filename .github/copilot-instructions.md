@@ -11,11 +11,11 @@ This repository is a Markdown-based architecture skill library, not a compiled a
 
 ## Project-specific conventions
 - Prefer narrow contributions: one skill, one knowledge card, one before/after example, or one evaluation checklist.
-- Choose placement in this order: platform-ecosystem → framework → language → domain → paradigm → core.
+- Choose placement in this order: platform → framework → language → domain → paradigm → core.
 - Use `skills/core/architecture-before-coding/SKILL.md` for architecture-first design tasks.
 - Use `skills/core/design-pattern-selector/SKILL.md` when advising whether a pattern is justified.
 - Use `skills/core/refactoring-planner` when reviewing or changing existing code.
-- Keep framework behavior in `knowledge/frameworks/` and external runtime/platform constraints in `knowledge/platform-ecosystems/`.
+- Keep framework behavior in `knowledge/frameworks/` and external runtime/platform constraints in `knowledge/platform/`.
 
 ## Important workflow notes
 - There is no `package.json`, `pyproject.toml`, `Makefile`, or CI workflow in this repo. Do not invent build or runtime commands.

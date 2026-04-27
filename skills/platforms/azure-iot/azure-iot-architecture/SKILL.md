@@ -7,8 +7,8 @@ description: Use when reviewing or designing Azure IoT architecture, including I
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/iot-edge/`
-- `knowledge/platform-ecosystems/cloud/`
+- `knowledge/platform/iot-edge/`
+- `knowledge/platform/cloud/`
 - `knowledge/languages/c/`
 - `knowledge/languages/csharp/`
 - `knowledge/platform/`

@@ -7,7 +7,7 @@ description: Use when reviewing or designing DJI drone platform integration, inc
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/robotics/`
+- `knowledge/platform/robotics/`
 - `knowledge/languages/java/`
 - `knowledge/languages/c/`
 - `knowledge/languages/python/`

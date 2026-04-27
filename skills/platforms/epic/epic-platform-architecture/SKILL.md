@@ -7,7 +7,7 @@ description: Use when reviewing or designing Epic Games platform integration, in
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/communication-platforms/`
+- `knowledge/platform/communication-platforms/`
 - `knowledge/languages/cpp/`
 - `knowledge/languages/csharp/`
 - `knowledge/api/`

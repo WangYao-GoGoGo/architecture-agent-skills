@@ -7,7 +7,7 @@ description: Use when reviewing or designing ArduPilot/PX4 autopilot platform in
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/robotics/`
+- `knowledge/platform/robotics/`
 - `knowledge/languages/c/`
 - `knowledge/languages/cpp/`
 - `knowledge/languages/python/`

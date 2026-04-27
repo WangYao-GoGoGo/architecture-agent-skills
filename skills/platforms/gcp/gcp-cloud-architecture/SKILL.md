@@ -7,7 +7,7 @@ description: Use when reviewing or designing Google Cloud architecture, includin
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/cloud/`
+- `knowledge/platform/cloud/`
 - `knowledge/platform/`
 - `knowledge/api/`
 

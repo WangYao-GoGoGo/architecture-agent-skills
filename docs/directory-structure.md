@@ -28,8 +28,7 @@ knowledge/
   data-systems/      Core data-system concepts and data-system families (30+ database technologies)
   api/               API contracts and compatibility
   frameworks/        80+ frameworks across backend, frontend, mobile, desktop, data, AI agent, database tools, Java, Python ORM, TypeScript data, and robotics
-  platform-ecosystems/ External runtimes, vendor SDKs, robots, WeChat, cloud, IoT
-  platform/          Linux, shell, process, filesystem, config, deploy
+  platform/          Platform-specific knowledge for 33+ platforms (social, communication, payment, cloud, gaming, social media, IoT, drone, robotics) plus generic operations (Linux, shell, process, filesystem, config, deploy)
   methodologies/     Named learning systems and source-oriented maps
 ```
 
@@ -37,7 +36,7 @@ Use subfolders when a category is expected to grow beyond a few cards or needs t
 
 Architecture knowledge intentionally uses subfolders because the concerns differ: application-internal organization, distributed deployment shape, integration and consistency patterns, and decision governance should not be mixed in one flat list.
 
-Keep `frameworks/` for technology behavior that runs inside or alongside the application, such as Spring Boot, React, Electron, ORMs, or ROS middleware. Keep `platform-ecosystems/` for external runtimes and vendor ecosystems that own rules outside the application, such as WeChat review/API constraints, cloud accounts, IoT fleets, robot controllers, Pepper/NAOqi, app stores, or bot-platform callbacks.
+Keep `frameworks/` for technology behavior that runs inside or alongside the application, such as Spring Boot, React, Electron, ORMs, or ROS middleware. Keep `platform/` for external runtimes and vendor ecosystems that own rules outside the application, such as WeChat review/API constraints, cloud accounts, IoT fleets, robot controllers, Pepper/NAOqi, app stores, or bot-platform callbacks.
 
 ## Skill Structure
 

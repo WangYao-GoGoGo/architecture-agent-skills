@@ -7,7 +7,7 @@ description: Use when reviewing or designing WeChat Pay integration, including J
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/wechat/`
+- `knowledge/platform/wechat/`
 - `knowledge/api/`
 - `knowledge/platform/`
 

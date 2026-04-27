@@ -7,7 +7,7 @@ description: Use when reviewing or designing DingTalk app architecture, includin
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/communication-platforms/`
+- `knowledge/platform/communication-platforms/`
 - `knowledge/languages/javascript/`
 - `knowledge/languages/java/`
 - `knowledge/api/`

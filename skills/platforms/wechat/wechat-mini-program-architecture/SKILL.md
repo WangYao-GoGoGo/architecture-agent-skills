@@ -7,7 +7,7 @@ description: Use when reviewing or designing WeChat mini program architecture, i
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/wechat/`
+- `knowledge/platform/wechat/`
 - `knowledge/languages/javascript/`
 - `knowledge/languages/typescript/`
 - `knowledge/api/`

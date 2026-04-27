@@ -10,7 +10,7 @@ Core skills pair with `knowledge/core/` for architecture-level heuristics:
 - `refactoring-planner`: `knowledge/core/refactoring-planner/`, `knowledge/refactoring/`, `knowledge/smells/`, `knowledge/principles/`
 - `dependency-boundary-review`: `knowledge/core/dependency-boundary-review/`, `knowledge/principles/dependency-inversion.md`, `knowledge/principles/separation-of-concerns.md`, `knowledge/frameworks/core/framework-boundaries.md`
 - `anti-overengineering-review`: `knowledge/core/anti-overengineering-review/`, `knowledge/principles/`, `knowledge/smells/`, `knowledge/patterns/`
-- `architecture-decision-review`: `knowledge/core/architecture-decision-review/`, `knowledge/architecture/`, especially `knowledge/architecture/decision-governance/`, plus `knowledge/data-systems/`, `knowledge/api/`, `knowledge/frameworks/`, `knowledge/platform-ecosystems/` as needed
+- `architecture-decision-review`: `knowledge/core/architecture-decision-review/`, `knowledge/architecture/`, especially `knowledge/architecture/decision-governance/`, plus `knowledge/data-systems/`, `knowledge/api/`, `knowledge/frameworks/`, `knowledge/platform/` as needed
 - `design-pattern-selector`: `knowledge/core/design-pattern-selector/`, `knowledge/patterns/`, `knowledge/principles/`
 
 ## Paradigm Skills
@@ -111,45 +111,45 @@ Each language skill pairs with its corresponding knowledge card:
 - **Java ecosystem**: `knowledge/frameworks/java/` (Hibernate, MyBatis, Spring Data JPA, Spring Boot, Spring MVC, Struts, jOOQ, Reactor)
 - **Python ORM**: `knowledge/frameworks/python/` (SQLAlchemy, Alembic, Django ORM, Peewee, SQLModel)
 - **TypeScript data**: `knowledge/frameworks/typescript/` (Prisma, TypeORM, Sequelize, Mongoose, Drizzle ORM, Knex.js, MikroORM)
-- **Robotics frameworks**: `knowledge/frameworks/robotics/` (ROS 2, MoveIt, Gazebo, Webots, Isaac Sim), plus `knowledge/platform-ecosystems/robotics/` when hardware or vendor runtime constraints matter.
+- **Robotics frameworks**: `knowledge/frameworks/robotics/` (ROS 2, MoveIt, Gazebo, Webots, Isaac Sim), plus `knowledge/platform/robotics/` when hardware or vendor runtime constraints matter.
 - **Migration tools**: `knowledge/frameworks/migrations/migration-tools.md`, `knowledge/data-systems/core/migrations.md`
 
 ## Platform Skills
 
-- Platform ecosystem review: `knowledge/platform-ecosystems/`, `knowledge/api/`, `knowledge/frameworks/core/framework-boundaries.md`, `knowledge/platform/`
-- WeChat mini program architecture: `knowledge/platform-ecosystems/wechat/`, `knowledge/languages/javascript/`, `knowledge/languages/typescript/`, `knowledge/api/`
-- WeChat Pay integration: `knowledge/platform-ecosystems/wechat/`, `knowledge/api/`, `knowledge/platform/`
-- Alipay mini program architecture: `knowledge/platform-ecosystems/communication-platforms/`, `knowledge/languages/javascript/`, `knowledge/languages/typescript/`, `knowledge/api/`
-- Alipay payment integration: `knowledge/platform-ecosystems/payment/`, `knowledge/api/`, `knowledge/platform/`
-- LINE bot architecture: `knowledge/platform-ecosystems/communication-platforms/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
-- Facebook/Meta platform architecture: `knowledge/platform-ecosystems/communication-platforms/`, `knowledge/languages/javascript/`, `knowledge/api/`
-- Slack app architecture: `knowledge/platform-ecosystems/communication-platforms/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
-- Discord bot architecture: `knowledge/platform-ecosystems/communication-platforms/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
-- Telegram bot architecture: `knowledge/platform-ecosystems/communication-platforms/`, `knowledge/languages/python/`, `knowledge/languages/javascript/`, `knowledge/api/`
-- Feishu/Lark app architecture: `knowledge/platform-ecosystems/communication-platforms/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
-- DingTalk app architecture: `knowledge/platform-ecosystems/communication-platforms/`, `knowledge/languages/javascript/`, `knowledge/languages/java/`, `knowledge/api/`
-- WhatsApp Business API architecture: `knowledge/platform-ecosystems/communication-platforms/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
-- Stripe payment architecture: `knowledge/platform-ecosystems/payment/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
-- PayPal payment architecture: `knowledge/platform-ecosystems/payment/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
-- AWS cloud architecture: `knowledge/platform-ecosystems/cloud/`, `knowledge/platform/`, `knowledge/api/`
-- Azure cloud architecture: `knowledge/platform-ecosystems/cloud/`, `knowledge/platform/`, `knowledge/api/`
-- GCP cloud architecture: `knowledge/platform-ecosystems/cloud/`, `knowledge/platform/`, `knowledge/api/`
-- Alibaba Cloud architecture: `knowledge/platform-ecosystems/cloud/`, `knowledge/platform/`, `knowledge/api/`
-- Robotics platform architecture: `knowledge/platform-ecosystems/robotics/`, `knowledge/frameworks/robotics/`, `knowledge/languages/python/`, `knowledge/languages/c/`, `knowledge/platform/`
-- DJI drone platform architecture: `knowledge/platform-ecosystems/drone/`, `knowledge/languages/java/`, `knowledge/languages/c/`, `knowledge/languages/python/`, `knowledge/platform/`
-- ArduPilot/PX4 platform architecture: `knowledge/platform-ecosystems/drone/`, `knowledge/languages/c/`, `knowledge/languages/cpp/`, `knowledge/languages/python/`, `knowledge/platform/`
-- AWS IoT architecture: `knowledge/platform-ecosystems/iot-edge/`, `knowledge/platform-ecosystems/cloud/`, `knowledge/languages/c/`, `knowledge/languages/python/`, `knowledge/platform/`
-- Azure IoT architecture: `knowledge/platform-ecosystems/iot-edge/`, `knowledge/platform-ecosystems/cloud/`, `knowledge/languages/c/`, `knowledge/languages/csharp/`, `knowledge/platform/`
-- ThingsBoard IoT architecture: `knowledge/platform-ecosystems/iot-edge/`, `knowledge/languages/java/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/platform/`
-- Steam platform architecture: `knowledge/platform-ecosystems/gaming/`, `knowledge/languages/cpp/`, `knowledge/languages/csharp/`, `knowledge/api/`
-- PlayStation platform architecture: `knowledge/platform-ecosystems/gaming/`, `knowledge/languages/cpp/`, `knowledge/languages/csharp/`, `knowledge/api/`
-- Xbox platform architecture: `knowledge/platform-ecosystems/gaming/`, `knowledge/languages/cpp/`, `knowledge/languages/csharp/`, `knowledge/api/`
-- Nintendo platform architecture: `knowledge/platform-ecosystems/gaming/`, `knowledge/languages/cpp/`, `knowledge/languages/c/`, `knowledge/api/`
-- Epic Games platform architecture: `knowledge/platform-ecosystems/gaming/`, `knowledge/languages/cpp/`, `knowledge/languages/csharp/`, `knowledge/api/`
-- Twitter/X platform architecture: `knowledge/platform-ecosystems/social-media/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
-- TikTok platform architecture: `knowledge/platform-ecosystems/social-media/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
-- Instagram platform architecture: `knowledge/platform-ecosystems/social-media/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
-- YouTube platform architecture: `knowledge/platform-ecosystems/social-media/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
+- Platform ecosystem review: `knowledge/platform/`, `knowledge/api/`, `knowledge/frameworks/core/framework-boundaries.md`
+- WeChat mini program architecture: `knowledge/platform/wechat/`, `knowledge/languages/javascript/`, `knowledge/languages/typescript/`, `knowledge/api/`
+- WeChat Pay integration: `knowledge/platform/wechat/`, `knowledge/api/`
+- Alipay mini program architecture: `knowledge/platform/alipay/`, `knowledge/languages/javascript/`, `knowledge/languages/typescript/`, `knowledge/api/`
+- Alipay payment integration: `knowledge/platform/alipay/`, `knowledge/api/`
+- LINE bot architecture: `knowledge/platform/line/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
+- Facebook/Meta platform architecture: `knowledge/platform/facebook/`, `knowledge/languages/javascript/`, `knowledge/api/`
+- Slack app architecture: `knowledge/platform/slack/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
+- Discord bot architecture: `knowledge/platform/discord/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
+- Telegram bot architecture: `knowledge/platform/telegram/`, `knowledge/languages/python/`, `knowledge/languages/javascript/`, `knowledge/api/`
+- Feishu/Lark app architecture: `knowledge/platform/feishu/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
+- DingTalk app architecture: `knowledge/platform/dingtalk/`, `knowledge/languages/javascript/`, `knowledge/languages/java/`, `knowledge/api/`
+- WhatsApp Business API architecture: `knowledge/platform/whatsapp/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
+- Stripe payment architecture: `knowledge/platform/stripe/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
+- PayPal payment architecture: `knowledge/platform/paypal/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
+- AWS cloud architecture: `knowledge/platform/aws/`, `knowledge/api/`
+- Azure cloud architecture: `knowledge/platform/azure/`, `knowledge/api/`
+- GCP cloud architecture: `knowledge/platform/gcp/`, `knowledge/api/`
+- Alibaba Cloud architecture: `knowledge/platform/alibaba-cloud/`, `knowledge/api/`
+- Robotics platform architecture: `knowledge/platform/robotics/`, `knowledge/frameworks/robotics/`, `knowledge/languages/python/`, `knowledge/languages/c/`
+- DJI drone platform architecture: `knowledge/platform/dji/`, `knowledge/languages/java/`, `knowledge/languages/c/`, `knowledge/languages/python/`
+- ArduPilot/PX4 platform architecture: `knowledge/platform/ardupilot/`, `knowledge/languages/c/`, `knowledge/languages/cpp/`, `knowledge/languages/python/`
+- AWS IoT architecture: `knowledge/platform/aws-iot/`, `knowledge/platform/aws/`, `knowledge/languages/c/`, `knowledge/languages/python/`
+- Azure IoT architecture: `knowledge/platform/azure-iot/`, `knowledge/platform/azure/`, `knowledge/languages/c/`, `knowledge/languages/csharp/`
+- ThingsBoard IoT architecture: `knowledge/platform/thingsboard/`, `knowledge/languages/java/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`
+- Steam platform architecture: `knowledge/platform/steam/`, `knowledge/languages/cpp/`, `knowledge/languages/csharp/`, `knowledge/api/`
+- PlayStation platform architecture: `knowledge/platform/playstation/`, `knowledge/languages/cpp/`, `knowledge/languages/csharp/`, `knowledge/api/`
+- Xbox platform architecture: `knowledge/platform/xbox/`, `knowledge/languages/cpp/`, `knowledge/languages/csharp/`, `knowledge/api/`
+- Nintendo platform architecture: `knowledge/platform/nintendo/`, `knowledge/languages/cpp/`, `knowledge/languages/c/`, `knowledge/api/`
+- Epic Games platform architecture: `knowledge/platform/epic/`, `knowledge/languages/cpp/`, `knowledge/languages/csharp/`, `knowledge/api/`
+- Twitter/X platform architecture: `knowledge/platform/twitter/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
+- TikTok platform architecture: `knowledge/platform/tiktok/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
+- Instagram platform architecture: `knowledge/platform/instagram/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
+- YouTube platform architecture: `knowledge/platform/youtube/`, `knowledge/languages/javascript/`, `knowledge/languages/python/`, `knowledge/api/`
 
 ## Coverage Checks
 
@@ -166,16 +166,38 @@ Examples:
 - `knowledge/platform/` is paired with `skills/domains/operations/operational-script-review`.
 - `knowledge/frameworks/` is paired with `skills/frameworks/framework-boundary-review` and `skills/frameworks/orm-boundary-review`.
 - `knowledge/data-systems/vector/` is paired with `skills/domains/database/vector/vector-search-architecture-review`.
-- `knowledge/platform-ecosystems/` is paired with `skills/platforms/platform-ecosystem-architecture-review`.
-- `knowledge/platform-ecosystems/wechat/` is paired with `skills/platforms/wechat/wechat-mini-program-architecture` and `skills/platforms/wechat/wechat-pay-integration`.
-- `knowledge/platform-ecosystems/robotics/` is paired with `skills/platforms/robotics/robotics-platform-architecture`.
-- `knowledge/platform-ecosystems/communication-platforms/` is paired with `skills/platforms/alipay/alipay-mini-program-architecture`, `skills/platforms/line/line-bot-architecture`, `skills/platforms/facebook/facebook-platform-architecture`, `skills/platforms/slack/slack-app-architecture`, `skills/platforms/discord/discord-bot-architecture`, `skills/platforms/telegram/telegram-bot-architecture`, `skills/platforms/feishu/feishu-app-architecture`, `skills/platforms/dingtalk/dingtalk-app-architecture`, `skills/platforms/whatsapp/whatsapp-business-architecture`.
-- `knowledge/platform-ecosystems/payment/` is paired with `skills/platforms/alipay/alipay-payment-integration`, `skills/platforms/stripe/stripe-payment-architecture`, `skills/platforms/paypal/paypal-payment-architecture`.
-- `knowledge/platform-ecosystems/cloud/` is paired with `skills/platforms/aws/aws-cloud-architecture`, `skills/platforms/azure/azure-cloud-architecture`, `skills/platforms/gcp/gcp-cloud-architecture`, `skills/platforms/alibaba-cloud/alibaba-cloud-architecture`.
-- `knowledge/platform-ecosystems/drone/` is paired with `skills/platforms/dji/dji-drone-platform-architecture`, `skills/platforms/ardupilot/ardupilot-platform-architecture`.
-- `knowledge/platform-ecosystems/iot-edge/` is paired with `skills/platforms/aws-iot/aws-iot-architecture`, `skills/platforms/azure-iot/azure-iot-architecture`, `skills/platforms/thingsboard/thingsboard-iot-architecture`.
-- `knowledge/platform-ecosystems/gaming/` is paired with `skills/platforms/steam/steam-platform-architecture`, `skills/platforms/playstation/playstation-platform-architecture`, `skills/platforms/xbox/xbox-platform-architecture`, `skills/platforms/nintendo/nintendo-platform-architecture`, `skills/platforms/epic/epic-platform-architecture`.
-- `knowledge/platform-ecosystems/social-media/` is paired with `skills/platforms/twitter/twitter-platform-architecture`, `skills/platforms/tiktok/tiktok-platform-architecture`, `skills/platforms/instagram/instagram-platform-architecture`, `skills/platforms/youtube/youtube-platform-architecture`.
+- `knowledge/platform/` is paired with `skills/platforms/platform-ecosystem-architecture-review` and `skills/domains/operations/operational-script-review`.
+- `knowledge/platform/wechat/` is paired with `skills/platforms/wechat/wechat-mini-program-architecture` and `skills/platforms/wechat/wechat-pay-integration`.
+- `knowledge/platform/robotics/` is paired with `skills/platforms/robotics/robotics-platform-architecture`.
+- `knowledge/platform/alipay/` is paired with `skills/platforms/alipay/alipay-mini-program-architecture` and `skills/platforms/alipay/alipay-payment-integration`.
+- `knowledge/platform/line/` is paired with `skills/platforms/line/line-bot-architecture`.
+- `knowledge/platform/facebook/` is paired with `skills/platforms/facebook/facebook-platform-architecture`.
+- `knowledge/platform/slack/` is paired with `skills/platforms/slack/slack-app-architecture`.
+- `knowledge/platform/discord/` is paired with `skills/platforms/discord/discord-bot-architecture`.
+- `knowledge/platform/telegram/` is paired with `skills/platforms/telegram/telegram-bot-architecture`.
+- `knowledge/platform/feishu/` is paired with `skills/platforms/feishu/feishu-app-architecture`.
+- `knowledge/platform/dingtalk/` is paired with `skills/platforms/dingtalk/dingtalk-app-architecture`.
+- `knowledge/platform/whatsapp/` is paired with `skills/platforms/whatsapp/whatsapp-business-architecture`.
+- `knowledge/platform/stripe/` is paired with `skills/platforms/stripe/stripe-payment-architecture`.
+- `knowledge/platform/paypal/` is paired with `skills/platforms/paypal/paypal-payment-architecture`.
+- `knowledge/platform/aws/` is paired with `skills/platforms/aws/aws-cloud-architecture`.
+- `knowledge/platform/azure/` is paired with `skills/platforms/azure/azure-cloud-architecture`.
+- `knowledge/platform/gcp/` is paired with `skills/platforms/gcp/gcp-cloud-architecture`.
+- `knowledge/platform/alibaba-cloud/` is paired with `skills/platforms/alibaba-cloud/alibaba-cloud-architecture`.
+- `knowledge/platform/dji/` is paired with `skills/platforms/dji/dji-drone-platform-architecture`.
+- `knowledge/platform/ardupilot/` is paired with `skills/platforms/ardupilot/ardupilot-platform-architecture`.
+- `knowledge/platform/aws-iot/` is paired with `skills/platforms/aws-iot/aws-iot-architecture`.
+- `knowledge/platform/azure-iot/` is paired with `skills/platforms/azure-iot/azure-iot-architecture`.
+- `knowledge/platform/thingsboard/` is paired with `skills/platforms/thingsboard/thingsboard-iot-architecture`.
+- `knowledge/platform/steam/` is paired with `skills/platforms/steam/steam-platform-architecture`.
+- `knowledge/platform/playstation/` is paired with `skills/platforms/playstation/playstation-platform-architecture`.
+- `knowledge/platform/xbox/` is paired with `skills/platforms/xbox/xbox-platform-architecture`.
+- `knowledge/platform/nintendo/` is paired with `skills/platforms/nintendo/nintendo-platform-architecture`.
+- `knowledge/platform/epic/` is paired with `skills/platforms/epic/epic-platform-architecture`.
+- `knowledge/platform/twitter/` is paired with `skills/platforms/twitter/twitter-platform-architecture`.
+- `knowledge/platform/tiktok/` is paired with `skills/platforms/tiktok/tiktok-platform-architecture`.
+- `knowledge/platform/instagram/` is paired with `skills/platforms/instagram/instagram-platform-architecture`.
+- `knowledge/platform/youtube/` is paired with `skills/platforms/youtube/youtube-platform-architecture`.
 
 ## Rule For New Skills
 

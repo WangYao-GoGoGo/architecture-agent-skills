@@ -7,7 +7,7 @@ description: Use when reviewing architecture that depends on external platform e
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/`
+- `knowledge/platform/`
 - `knowledge/frameworks/core/framework-boundaries.md`
 - `knowledge/api/`
 - `knowledge/platform/`

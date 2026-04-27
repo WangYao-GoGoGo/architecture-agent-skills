@@ -40,8 +40,7 @@ knowledge/
   data-systems/         Relational, document, key-value, graph, search, vector, cache
   api/                  Contracts, versioning, idempotency, pagination, errors
   frameworks/           Framework boundaries, ORM, migrations, frontend frameworks
-  platform-ecosystems/  WeChat, robotics, cloud, IoT, bot and vendor platform constraints
-  platform/             Linux, shell, process, filesystem, configuration
+  platform/             Platform-specific knowledge for 33+ platforms (social, communication, payment, cloud, gaming, social media, IoT, drone, robotics) plus generic operations (Linux, shell, process, filesystem, configuration)
   methodologies/        Named learning systems and source-oriented maps
 
 templates/              Reusable templates for new skills and reports
@@ -60,7 +59,7 @@ tests/                  Human-readable evaluation checklists
 
 Put framework behavior in `knowledge/frameworks/`: Spring Boot, React, Django, Electron, ROS 2, ORMs, migration tools, and similar runtime or library ecosystems.
 
-Put external ecosystem constraints in `knowledge/platform-ecosystems/`: WeChat, Pepper/NAOqi, robot arms, cloud accounts, IoT fleets, chat/bot platforms, app review rules, hardware controllers, platform callbacks, and vendor SDK boundaries.
+Put external ecosystem constraints in `knowledge/platform/`: WeChat, Pepper/NAOqi, robot arms, cloud accounts, IoT fleets, chat/bot platforms, app review rules, hardware controllers, platform callbacks, and vendor SDK boundaries.
 
 ## Design Philosophy
 

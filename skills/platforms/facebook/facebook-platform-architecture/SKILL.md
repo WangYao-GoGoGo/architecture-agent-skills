@@ -7,7 +7,7 @@ description: Use when reviewing or designing Facebook/Meta platform integration,
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/communication-platforms/`
+- `knowledge/platform/communication-platforms/`
 - `knowledge/languages/javascript/`
 - `knowledge/api/`
 

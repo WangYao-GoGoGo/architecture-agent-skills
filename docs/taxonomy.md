@@ -110,7 +110,7 @@ Examples:
 
 Use `skills/platforms/` when the decision depends on vendor ecosystem constraints more than a language or framework.
 
-If a technology can be replaced like a library or framework inside the application, start in `frameworks/`. If the technology controls identity, permissions, deployment, callbacks, review rules, hardware state, billing, or managed runtime behavior outside the application, start in `platforms/` and `knowledge/platform-ecosystems/`.
+If a technology can be replaced like a library or framework inside the application, start in `frameworks/`. If the technology controls identity, permissions, deployment, callbacks, review rules, hardware state, billing, or managed runtime behavior outside the application, start in `platforms/` and `knowledge/platform/`.
 
 ## Knowledge Cards
 
@@ -140,8 +140,7 @@ Use `knowledge/` as the shared concept library behind skills:
 - `knowledge/application-areas/`: backend, frontend, pipeline, and operations workload concepts.
 - `knowledge/data-systems/`: 30+ relational, non-relational, cache, search, vector, and data architecture concepts.
 - `knowledge/frameworks/`: 80+ framework, ORM, migration, and generated-client concepts across 12 categories.
-- `knowledge/platform-ecosystems/`: external runtimes, vendor SDKs, platform callbacks, cloud, IoT, robotics, WeChat, communication, payment, gaming, social media, drone, and bot ecosystems.
-- `knowledge/platform/`: Linux, shell, process, filesystem, configuration, and deployment concerns.
+- `knowledge/platform/`: platform-specific knowledge for 33+ platforms across social, communication, payment, cloud, gaming, social media, IoT, drone, and robotics categories, plus generic operations topics (Linux, shell, process, filesystem, configuration, deployment).
 - `knowledge/methodologies/`: named learning systems, curricula, and source-oriented maps.
 
 For alignment rules, see `docs/knowledge-skill-map.md`.

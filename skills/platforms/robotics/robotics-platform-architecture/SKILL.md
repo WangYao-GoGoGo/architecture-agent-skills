@@ -7,7 +7,7 @@ description: Use when reviewing or designing robotics architecture for Pepper/NA
 
 ## Knowledge To Use
 
-- `knowledge/platform-ecosystems/robotics/`
+- `knowledge/platform/robotics/`
 - `knowledge/frameworks/robotics/`
 - `knowledge/languages/python/`
 - `knowledge/languages/c/`
