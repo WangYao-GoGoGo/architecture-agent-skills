@@ -9,7 +9,7 @@ Use this skill for OO-specific pattern choices. For broader cross-paradigm selec
 
 ## Knowledge To Use
 
-- [`knowledge/paradigms/object-oriented/patterns/`](../../../knowledge/paradigms/object-oriented/patterns/) — full reference for all 35 patterns (7 creational, 7 structural, 11 behavioral, 12 extended)
+- [`knowledge/patterns/object-oriented/`](../../../knowledge/patterns/object-oriented/) — full reference for all 35 patterns (7 creational, 7 structural, 11 behavioral, 12 extended)
 - [`knowledge/paradigms/object-oriented/`](../../../knowledge/paradigms/object-oriented/) — OO design heuristics and common risks
 - [`knowledge/paradigms/cross-paradigm/`](../../../knowledge/paradigms/cross-paradigm/) — paradigm comparison when the pattern crosses paradigms
 

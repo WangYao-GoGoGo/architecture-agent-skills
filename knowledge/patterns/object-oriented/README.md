@@ -71,7 +71,7 @@ Additional patterns beyond the original GoF 23.
 
 ## How To Use This Knowledge
 
-These pattern cards are reference material for the [`skills/paradigms/object-oriented/design-pattern-selector/SKILL.md`](../../../../skills/paradigms/object-oriented/design-pattern-selector/SKILL.md) skill. When selecting a pattern:
+These pattern cards are reference material for the [`skills/paradigms/object-oriented/design-pattern-selector/SKILL.md`](../../../skills/paradigms/object-oriented/design-pattern-selector/SKILL.md) skill. When selecting a pattern:
 
 1. Identify the **design pressure** (what problem are you solving?)
 2. Check the **Use When** section of candidate patterns

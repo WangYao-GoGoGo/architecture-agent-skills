@@ -20,7 +20,7 @@ This project grows best through small, practical contributions:
 
 ## Good First Contributions
 
-- Fill a GoF pattern card in `knowledge/patterns/`.
+- Fill a GoF pattern card in `knowledge/patterns/object-oriented/`.
 - Add a Java or Python before/after refactoring example.
 - Improve `skills/core/architecture-before-coding`.
 - Add evaluation cases under `tests/`.
