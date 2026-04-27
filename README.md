@@ -15,6 +15,7 @@ The goal is not to make agents use patterns everywhere. The goal is to help agen
 - Provide paradigm-specific guidance for object-oriented, procedural, functional, and systems-oriented code.
 - Provide language-specific guidance for Java, Python, C, SQL, TypeScript, JavaScript, Shell, and future language packs.
 - Provide domain-specific guidance for backend, frontend, database, cache, search, data pipeline, and operations architecture.
+- Provide platform-ecosystem guidance for WeChat, robotics, cloud, IoT, bot platforms, and vendor SDK integrations.
 - Build a shared knowledge base that contributors can improve over time.
 
 ## Repository Layout
@@ -26,6 +27,7 @@ skills/
   languages/            Java, Python, C, SQL, TypeScript, JavaScript, Shell guidance
   domains/              Backend, frontend, database, data pipeline, operations guidance
   frameworks/           Framework, ORM, migration-tool, generated-client guidance
+  platforms/            External platform, vendor SDK, robot, IoT, cloud ecosystem guidance
 
 knowledge/
   principles/           SOLID, GRASP, coupling/cohesion, boundaries
@@ -38,6 +40,7 @@ knowledge/
   data-systems/         Relational, document, key-value, graph, search, vector, cache
   api/                  Contracts, versioning, idempotency, pagination, errors
   frameworks/           Framework boundaries, ORM, migrations, frontend frameworks
+  platform-ecosystems/  WeChat, robotics, cloud, IoT, bot and vendor platform constraints
   platform/             Linux, shell, process, filesystem, configuration
   methodologies/        Named learning systems and source-oriented maps
 
@@ -52,6 +55,12 @@ tests/                  Human-readable evaluation checklists
 - `skills/core/architecture-before-coding`: use before implementing a feature, so the agent proposes responsibilities, boundaries, interfaces, and risks first.
 - `skills/core/design-pattern-selector`: use when code has conditionals, duplicated workflows, object creation complexity, event notification, adapters, or extension needs.
 - `skills/core/refactoring-planner`: use before changing existing code, especially when behavior must remain stable.
+
+## Frameworks vs Platform Ecosystems
+
+Put framework behavior in `knowledge/frameworks/`: Spring Boot, React, Django, Electron, ROS 2, ORMs, migration tools, and similar runtime or library ecosystems.
+
+Put external ecosystem constraints in `knowledge/platform-ecosystems/`: WeChat, Pepper/NAOqi, robot arms, cloud accounts, IoT fleets, chat/bot platforms, app review rules, hardware controllers, platform callbacks, and vendor SDK boundaries.
 
 ## Design Philosophy
 

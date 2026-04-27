@@ -10,7 +10,7 @@ Core skills should load only the knowledge needed for the task:
 - `refactoring-planner`: `refactoring/`, `smells/`, `principles/`
 - `dependency-boundary-review`: `principles/dependency-inversion.md`, `principles/separation-of-concerns.md`, `frameworks/core/framework-boundaries.md`
 - `anti-overengineering-review`: `principles/`, `smells/`, `patterns/`
-- `architecture-decision-review`: `architecture/`, especially `architecture/decision-governance/`, plus `data-systems/`, `api/`, `frameworks/` as needed
+- `architecture-decision-review`: `architecture/`, especially `architecture/decision-governance/`, plus `data-systems/`, `api/`, `frameworks/`, `platform-ecosystems/` as needed
 
 ## Paradigm Skills
 
@@ -44,6 +44,14 @@ Core skills should load only the knowledge needed for the task:
 - ORM boundary review: `knowledge/frameworks/orm/orm-boundaries.md`, `knowledge/data-systems/`
 - Migration tools: `knowledge/frameworks/migrations/migration-tools.md`, `knowledge/data-systems/core/migrations.md`
 - Frontend frameworks: `knowledge/frameworks/frontend/frontend-frameworks.md`, `knowledge/application-areas/frontend/`
+- Backend, mobile, desktop, data, and AI-agent frameworks: `knowledge/frameworks/`, loaded by `framework-boundary-review` or a narrower domain/language skill until a dedicated framework workflow is needed.
+- Robotics frameworks: `knowledge/frameworks/robotics/`, plus `knowledge/platform-ecosystems/robotics/` when hardware or vendor runtime constraints matter.
+
+## Platform Skills
+
+- Platform ecosystem review: `knowledge/platform-ecosystems/`, `knowledge/api/`, `knowledge/frameworks/core/framework-boundaries.md`, `knowledge/platform/`
+- WeChat mini program architecture: `knowledge/platform-ecosystems/wechat/`, `knowledge/languages/javascript/`, `knowledge/languages/typescript/`, `knowledge/api/`
+- Robotics platform architecture: `knowledge/platform-ecosystems/robotics/`, `knowledge/frameworks/robotics/`, `knowledge/languages/python/`, `knowledge/languages/c/`, `knowledge/platform/`
 
 ## Coverage Checks
 
@@ -60,6 +68,9 @@ Examples:
 - `knowledge/platform/` is paired with `skills/domains/operations/operational-script-review`.
 - `knowledge/frameworks/` is paired with `skills/frameworks/framework-boundary-review` and `skills/frameworks/orm-boundary-review`.
 - `knowledge/data-systems/vector/` is paired with `skills/domains/database/vector/vector-search-architecture-review`.
+- `knowledge/platform-ecosystems/` is paired with `skills/platforms/platform-ecosystem-architecture-review`.
+- `knowledge/platform-ecosystems/wechat/` is paired with `skills/platforms/wechat/wechat-mini-program-architecture`.
+- `knowledge/platform-ecosystems/robotics/` is paired with `skills/platforms/robotics/robotics-platform-architecture`.
 
 ## Rule For New Skills
 

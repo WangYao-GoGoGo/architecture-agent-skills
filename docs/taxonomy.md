@@ -63,7 +63,7 @@ Use `skills/domains/` when the decision is about the architecture of a technical
 
 ## Framework Skills
 
-Guidance based on a specific framework or platform.
+Guidance based on a specific framework, library ecosystem, middleware, or runtime framework.
 
 Examples:
 
@@ -73,8 +73,28 @@ Examples:
 - Redis data structure usage
 - ORM entity/session/repository boundaries
 - migration tool rollout behavior
+- Electron process boundaries
+- ROS 2 node and message boundaries
 
 Use `skills/frameworks/` when the guidance depends on framework behavior, lifecycle, conventions, or APIs.
+
+## Platform Skills
+
+Guidance based on external platform ecosystems where the platform owns runtime constraints, permissions, deployment, callbacks, managed services, account rules, hardware behavior, or review processes.
+
+Examples:
+
+- WeChat mini program and official account architecture
+- WeChat Pay callback and reconciliation boundaries
+- Pepper/NAOqi robot application structure
+- robot arm and industrial controller integration
+- cloud provider service boundaries
+- IoT/edge device fleet architecture
+- chat and bot platform event handling
+
+Use `skills/platforms/` when the decision depends on vendor ecosystem constraints more than a language or framework.
+
+If a technology can be replaced like a library or framework inside the application, start in `frameworks/`. If the technology controls identity, permissions, deployment, callbacks, review rules, hardware state, billing, or managed runtime behavior outside the application, start in `platforms/` and `knowledge/platform-ecosystems/`.
 
 ## Knowledge Cards
 
@@ -104,6 +124,7 @@ Use `knowledge/` as the shared concept library behind skills:
 - `knowledge/application-areas/`: backend, frontend, pipeline, and operations workload concepts.
 - `knowledge/data-systems/`: relational, non-relational, cache, search, vector, and data architecture concepts.
 - `knowledge/frameworks/`: framework, ORM, migration, and generated-client concepts.
+- `knowledge/platform-ecosystems/`: external runtimes, vendor SDKs, platform callbacks, cloud, IoT, robotics, WeChat, and bot ecosystems.
 - `knowledge/platform/`: Linux, shell, process, filesystem, configuration, and deployment concerns.
 - `knowledge/methodologies/`: named learning systems, curricula, and source-oriented maps.
 
@@ -113,10 +134,11 @@ For alignment rules, see `docs/knowledge-skill-map.md`.
 
 If a contribution could fit multiple places, choose the narrowest useful home:
 
-1. Framework-specific
-2. Language-specific
-3. Domain-specific
-4. Paradigm-specific
-5. Core
+1. Platform-ecosystem-specific
+2. Framework-specific
+3. Language-specific
+4. Domain-specific
+5. Paradigm-specific
+6. Core
 
 Core should stay small. It is the shared operating system, not a dumping ground.
