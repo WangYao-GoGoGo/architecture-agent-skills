@@ -94,10 +94,18 @@ Examples:
 
 - WeChat mini program and official account architecture
 - WeChat Pay callback and reconciliation boundaries
+- Alipay mini program and payment integration
+- LINE bot and Messaging API architecture
+- Facebook/Meta platform (Login, Graph API, Messenger bot)
+- Slack, Discord, Telegram, Feishu, DingTalk, WhatsApp Business app architecture
+- Stripe and PayPal payment integration
+- AWS, Azure, GCP, Alibaba Cloud service boundaries
 - Pepper/NAOqi robot application structure
 - robot arm and industrial controller integration
-- cloud provider service boundaries
-- IoT/edge device fleet architecture
+- DJI drone and ArduPilot/PX4 UAV platform integration
+- AWS IoT, Azure IoT, ThingsBoard device fleet architecture
+- Steam, PlayStation, Xbox, Nintendo, Epic Games platform integration
+- Twitter/X, TikTok, Instagram, YouTube social media API integration
 - chat and bot platform event handling
 
 Use `skills/platforms/` when the decision depends on vendor ecosystem constraints more than a language or framework.
@@ -132,7 +140,7 @@ Use `knowledge/` as the shared concept library behind skills:
 - `knowledge/application-areas/`: backend, frontend, pipeline, and operations workload concepts.
 - `knowledge/data-systems/`: 30+ relational, non-relational, cache, search, vector, and data architecture concepts.
 - `knowledge/frameworks/`: 80+ framework, ORM, migration, and generated-client concepts across 12 categories.
-- `knowledge/platform-ecosystems/`: external runtimes, vendor SDKs, platform callbacks, cloud, IoT, robotics, WeChat, and bot ecosystems.
+- `knowledge/platform-ecosystems/`: external runtimes, vendor SDKs, platform callbacks, cloud, IoT, robotics, WeChat, communication, payment, gaming, social media, drone, and bot ecosystems.
 - `knowledge/platform/`: Linux, shell, process, filesystem, configuration, and deployment concerns.
 - `knowledge/methodologies/`: named learning systems, curricula, and source-oriented maps.
 
